@@ -1,7 +1,7 @@
 .lpo_heading {
 position:absolute;
 margin-top:-40px;
-z-index:9999999999;
+z-index:2;
 }
 .lpo_mid, .lpo_mid_smart {
 	float:left;
