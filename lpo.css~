@@ -1,6 +1,6 @@
 .lpo_heading {
 position:absolute;
-margin-top:-40px;
+margin-top:-36px;
 z-index:2;
 width: 705px; 
 
