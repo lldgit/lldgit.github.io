@@ -9,7 +9,7 @@ width: 705px;
 border-radius: 5px; border: none;	
 }
 .lpo_innerbg_ticket {
-background: url(http://www.legoland.de/Global/LEGOLAND%20DE/2014/Buchen/lpo/Ticket_Header_710x250.png) no-repeat #7799b5;
+background: url(/Global/LEGOLAND%20DE/2014/Buchen/lpo/Ticket_Header_710x250-adrian.png) no-repeat #7799b5;
 }	
 .lpo_mid, .lpo_mid_smart {
 	float:left;
