@@ -9,7 +9,7 @@ width: 705px;
 border-radius: 5px; border: none;	
 }
 .lpo_innerbg_ticket {
-background: url(http://lldgit.github.io/Ticket_Header_710x250-adrian.png) no-repeat red;
+background: url(http://lldgit.github.io/Ticket_Header_710x250-adrian.png) no-repeat;
 }	
 .lpo_mid, .lpo_mid_smart {
 	float:left;
