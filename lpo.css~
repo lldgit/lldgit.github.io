@@ -182,11 +182,12 @@ margin-left:10px;
 	box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.36);
 	font-size:25px;
 	margin-top:-10px;
+	margin-bottom:30px;
 }
 .lpo_header h2 {
 	font-size:14px;
 	margin-top:65px;
-	transform: rotate(-10deg);
+	transform: rotate(-2deg);
 	box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.36);
 }
 .lpo_mini li {
