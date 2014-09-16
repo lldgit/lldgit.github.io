@@ -3,9 +3,7 @@ position:absolute;
 margin-top:-40px;
 z-index:2;
 width: 705px; 
-background: white;
-border:2px solid white;
-border-radius:10px;
+
 }
 .lpo_mid, .lpo_mid_smart {
 	float:left;
@@ -165,8 +163,6 @@ margin-left:10px;
 	padding:5px;
 	padding-left:350px;
 	 margin-bottom:5px;
-	 border:2px solid white;
-border-radius:10px;
 }
 .lpo_header h1, .lpo_header h2 {
 	background:white;
