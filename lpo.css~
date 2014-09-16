@@ -29,6 +29,7 @@ background: url(http://www.legoland.de/Global/LEGOLAND%20DE/2014/Buchen/lpo/Tick
 
 .lpo_mid ul {
 	padding:5px;
+	margin:0px;
 }
 .lpo_mid li {
 	list-style-type:none;
