@@ -9,7 +9,7 @@ width: 705px;
 border-radius: 5px; border: none;	
 }
 .lpo_innerbg_ticket {
-background: url(/Global/LEGOLAND%20DE/2014/Buchen/PreiseTickets/Ticket_Header_710x250-adrian.png) no-repeat red;
+background: url(http://lldgit.github.io/Ticket_Header_710x250-adrian.png) no-repeat red;
 }	
 .lpo_mid, .lpo_mid_smart {
 	float:left;
