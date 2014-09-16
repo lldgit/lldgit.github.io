@@ -238,11 +238,9 @@ border-bottom:1px solid white;
 .lpo_miniprice span {
 	font-size:16px;
 }
-.lpo_payment {
-	background:white;
-}
 .lpo_payment li {
 	float:left;
+	margin-right:10px;
 }
 .lpo_payment img {
 	width:45px;
