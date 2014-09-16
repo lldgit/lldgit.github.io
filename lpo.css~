@@ -247,5 +247,5 @@ border-bottom:1px solid white;
 	margin-right:10px;
 }
 .lpo_payment img {
-	width:45px;
+	width:60px;
 }
