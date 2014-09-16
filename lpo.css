@@ -1,0 +1,231 @@
+.lpo_heading {
+position:absolute;
+margin-top:-40px;
+z-index:9999999999;
+}
+.lpo_mid, .lpo_mid_smart {
+	float:left;
+	border:2px solid transparent;
+	border-radius: 10px;
+	margin-left:0.5%;
+
+}
+.lpo_border {
+	border:2px solid transparent;
+	border-radius: 10px;
+}
+.lpo_mid h4 {
+	font-size:18px;
+	padding-left:10px;
+}
+
+.lpo_mid ul {
+	padding:5px;
+}
+.lpo_mid li {
+	list-style-type:none;
+	line-height:40px;
+	font-size:14px;
+}
+.lpo_ticket_without_head {
+	margin-top:40px;
+}
+.w30 {
+	width:29%;
+}
+.w33 {
+	width:32%;
+}
+.w60 {
+	width:60%;
+}
+.w40 {
+	width:37%;
+}
+.w50 {
+	width:49%;
+}
+.lpo_red {
+	background-color:#ffd100;
+}
+.lpo_blue {
+	background-color:#1f2971;
+}
+.lpo_blue h3 {
+	color:white;
+}
+.lpo_blue li {
+	color:white;
+}
+.lpo_yellow {
+	background-color:#ffd100;
+}
+.lpo_grey {
+	background:#c1c6c8;
+}
+.lpo_big {
+	font-size:22px;
+	font-weight:bold;
+	color:black;
+}
+
+.lpo_big span, .lpo_miniprice span {
+	background:#da291c;
+	display:block;
+	font-size:20px;
+	text-align:center;
+	color:white;
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.lpo_big strong {
+	line-height:10px;
+	font-size:10px;
+	font-weight:normal;
+}
+
+
+.lpo_button {
+   border-top: 1px solid #ffffff;
+   background: #da291c;
+   padding: 5px 10px;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   border-radius: 10px;
+   color: white!important;
+   font-size: 11px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   text-decoration:none!important;  
+   }
+.lpo_button:hover {
+   border-top-color: #f0f0f0;
+   background: #f0f0f0;
+   color: #454545!important;
+   }
+.lpo_button:active {
+   border-top-color: #c4c4c4;
+   background: #c4c4c4;
+   }
+.lpo_button_grey {
+	background:lightgrey!important;
+	color:black!important;
+}   
+   
+.lpo_benefit {
+	color:black;
+	font-size:13px;
+	font-weight:bold;
+	padding:7px;
+	margin-left:3px;
+	margin-bottom:15px;
+	margin-top:10px;
+}
+.lpo_benefit p {
+	font-size:10px;
+	font-weight:normal;
+}
+.lpo_fr {
+margin-left:10px;
+}
+.clear {
+	clear:both;
+}
+.lpo_grey {
+	color:#63666a;
+}
+
+.lpo_big_second li {
+	float:left;
+	margin-bottom:2px;
+}
+
+.lpo_big_second .firstchild {
+	width:25%;
+	font-size:12px;
+	font-weight:normal;
+}
+.lpo_big_second .secondchild {
+	width:40%;
+}
+.lpo_big_second .thirdchild {
+	width:35%;
+	text-align:center;
+}
+.lpo_zahlmethoden {
+	width:600px;
+}
+.lpo_header {
+	padding:5px;
+	padding-left:350px;
+	 margin-bottom:5px;
+}
+.lpo_header h1, .lpo_header h2 {
+	background:white;
+	display:inline-block;
+	padding:3px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.lpo_header h1 {
+	font-size:25px;
+	margin-top:-10px;
+}
+.lpo_header h2 {
+	font-size:14px;
+	margin-top:90px;
+}
+.lpo_mini li {
+	padding:2px;
+}
+.lpo_anfahrt p {
+	padding:5px;
+	text-align:justify;
+}
+.lpo_anfahrt h3 {
+	padding:5px;
+}
+.lpo_jahreskarten h3 {
+	text-align:center!important;
+	margin-top:5px;
+}
+.lpo_ap_image {
+	display:block;
+	height:90px;
+	background:red;
+	margin:5px;
+}
+.lpo_vorteile li {
+	line-height:20px;
+	margin-bottom:5px;
+	font-size:12px;
+border-bottom:1px solid white;	
+	}
+.lpo_ap_pricetag li {
+	width:50%;
+	float:left;
+	line-height:20px;
+	text-align:center;
+}	
+.lpo_ap_pricetag_big li {
+	font-weight:bold;
+	font-size:25px;
+	line-height:28px;
+}
+.lpo_merlin_attraktionen img {
+	width:75px;
+	padding:5px;
+}
+.lpo_miniprice li {
+	float:left;
+	list-style:none;
+	width:11%;
+}
+.lpo_miniprice {
+	font-size:10px;
+}
+.lpo_miniprice span {
+	font-size:16px;
+}
