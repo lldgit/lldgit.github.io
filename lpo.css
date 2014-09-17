@@ -279,6 +279,7 @@ border-bottom:1px solid white;
 	background:white;
 	padding-left:4px;
 	padding-right:4px;	
+	transform:rotate(-5deg);
 }
 #accordion .ui-accordion-header a {
 	color: #fff;
