@@ -273,7 +273,10 @@ border-bottom:1px solid white;
 
 
 
-#accordion {
+#accordion h4 {
+	font-size:15px;
+	margin:0;
+	padding:0;
 }
 #accordion .ui-accordion-header {
 	background-color: #ccc;
