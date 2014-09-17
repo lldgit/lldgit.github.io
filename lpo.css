@@ -275,6 +275,11 @@ border-bottom:1px solid white;
 	background-color: #ccc;
 	margin: 0px;	padding:7px;
 }
+#accordion .ui-accordion-header span {
+	background:white;
+	padding-left:4px;
+	padding-right:4px;	
+}
 #accordion .ui-accordion-header a {
 	color: #fff;
 	line-height: 42px;
