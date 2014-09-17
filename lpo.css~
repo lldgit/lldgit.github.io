@@ -271,7 +271,6 @@ border-bottom:1px solid white;
 
 
 #accordion {
-	width: 100%;
 }
 #accordion .ui-accordion-header {
 	background-color: #ccc;
@@ -328,4 +327,10 @@ border-bottom:1px solid white;
 #accordion .ui-accordion-content:last-of-type {
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2),
 				inset 0px 0 0px 0px rgba(0, 0, 0, .5);
+}
+.lpo_big h4 {
+	margin:0;
+	padding:0;
+	margin-top:4px;
+	margin-bottom:4px;
 }
