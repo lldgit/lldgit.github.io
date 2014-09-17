@@ -276,7 +276,6 @@ border-bottom:1px solid white;
 	margin: 0px;	padding:7px;
 }
 #accordion .ui-accordion-header span {
-	border-right:2px solid white;
 	color:white;
 	padding-left:4px;
 	padding-right:4px;	
