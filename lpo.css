@@ -124,6 +124,13 @@ background: url(http://lldgit.github.io/Ticket_Header_710x250-adrian.png) no-rep
 }   
    
 .lpo_benefit {
+	position:absolute;
+	background:white;
+	margin-top:-5px;
+	margin-left:-15px;
+	width:300px;
+	radius:-3deg;
+	box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.60);
 	color:black;
 	font-size:13px;
 	font-weight:bold;
