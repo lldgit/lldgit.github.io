@@ -14,13 +14,13 @@ background: url(http://lldgit.github.io/Ticket_Header_710x250-adrian.png) no-rep
 .lpo_mid, .lpo_mid_smart {
 	float:left;
 	border:2px solid transparent;
-	border-radius: 10px;
+	border-radius: 5px;
 	margin-left:0.5%;
 
 }
 .lpo_border {
 	border:2px solid transparent;
-	border-radius: 10px;
+	border-radius: 5;
 }
 .lpo_mid h4 {
 	font-size:18px;
