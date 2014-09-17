@@ -350,12 +350,13 @@ border-bottom:1px solid white;
 .lpo_bigs span, .lpo_miniprice span {
 	background:#da291c;
 	display:block;
-	font-size:16px;
+	font-size:15px;
 	text-align:center;
 	color:white;
 	border-top-left-radius:10px;
 	border-bottom-right-radius:10px;
 	padding:3px;
+	margin:2px;
 }
 
 .lpo_bigs strong {
