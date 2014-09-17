@@ -303,6 +303,8 @@ border-bottom:1px solid white;
 	line-height: 16pt;
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2),
 				inset 0px -1px 0px 0px rgba(0, 0, 0, .4);
+				border:none;
+				border-radius:5px;
 }
 #accordion .ui-accordion-content > * {
 	margin: 0;
