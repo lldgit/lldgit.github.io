@@ -293,7 +293,8 @@ border-bottom:1px solid white;
 	border-left: 1px solid rgba(0, 0, 0, .2);
 	border-bottom: 1px solid rgba(0, 0, 0, .2);
 	border-top: 1px solid rgba(250, 250, 250, .2);
-	cursor:pointer;
+	cursor:pointer;	cursor: hand;			border:none;
+				border-radius:5px;
 }
 #accordion .ui-accordion-content {
 	width: 100%;
