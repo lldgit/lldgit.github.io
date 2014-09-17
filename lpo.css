@@ -284,7 +284,7 @@ border-bottom:1px solid white;
 	padding-left:4px;
 	padding-right:4px;	
 }
-#accordion .ui-accordion-header a {
+#accordion .ui-accordion-header a, #accordion h3 {
 	color: #a7c135!important;
 	line-height: 42px;
 	display: block;
