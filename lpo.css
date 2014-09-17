@@ -278,6 +278,10 @@ border-bottom:1px solid white;
 	margin:1px!important;
 	padding:1px!important;
 }
+#accordion p {
+	margin-top:1px!important;
+	padding:1px!important;
+}
 #accordion .ui-accordion-header {
 	background-color: #ccc;
 	margin: 0px;	padding:7px;
