@@ -273,7 +273,7 @@ border-bottom:1px solid white;
 }
 #accordion .ui-accordion-header {
 	background-color: #ccc;
-	margin: 0px;
+	margin: 0px;	padding:10px;
 }
 #accordion .ui-accordion-header a {
 	color: #fff;
@@ -282,7 +282,7 @@ border-bottom:1px solid white;
 	font-size: 12pt;
 	width: 100%;
 	text-indent: 10px;
-	padding:10px;
+
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 	border-right: 1px solid rgba(0, 0, 0, .2);
 	border-left: 1px solid rgba(0, 0, 0, .2);
