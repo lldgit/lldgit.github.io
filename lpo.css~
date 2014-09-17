@@ -276,10 +276,9 @@ border-bottom:1px solid white;
 	margin: 0px;	padding:7px;
 }
 #accordion .ui-accordion-header span {
-	background:white;
+	border-right:2px solid white;
 	padding-left:4px;
 	padding-right:4px;	
-	transform:radius(-5deg);
 }
 #accordion .ui-accordion-header a {
 	color: #fff;
