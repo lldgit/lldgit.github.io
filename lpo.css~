@@ -369,3 +369,20 @@ border-bottom:1px solid white;
 	margin-bottom:-8px!important;
 	font-size:14px;
 }
+.lpo_bigs_second li {
+	float:left;
+	margin-bottom:2px;
+}
+
+.lpo_bigs_second .firstchild {
+	width:25%;
+	font-size:12px;
+	font-weight:normal;
+}
+.lpo_bigs_second .secondchild {
+	width:40%;
+}
+.lpo_bigs_second .thirdchild {
+	width:35%;
+	text-align:center;
+}
