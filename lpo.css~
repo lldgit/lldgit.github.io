@@ -353,6 +353,7 @@ border-bottom:1px solid white;
 .lpo_bigs span {
 	background:#005eb8;
 	display:block;
+	font-weight:bold;
 	font-size:16px;
 	text-align:center;
 	color:white;
