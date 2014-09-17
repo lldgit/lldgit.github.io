@@ -304,7 +304,7 @@ border-bottom:1px solid white;
 #accordion .ui-accordion-content a {
 	color: #777;
 }
-#accordion .ui-accordion-header:nth-child(odd)  {
+#accordion .ui-accordion-header:nth-of-type(odd)  {
 	background-color: #fa9300;
 	background-image: -moz-linear-gradient(top,  #fa9300 0%, #dc621e 100%);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa9300), color-stop(100%,#dc621e));
@@ -314,7 +314,7 @@ border-bottom:1px solid white;
 	background-image: linear-gradient(to bottom,  #fa9300 0%,#dc621e 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa9300', endColorstr='#dc621e',GradientType=0 );
 }
-#accordion .ui-accordion-header:nth-child(even)  {
+#accordion .ui-accordion-header:nth-of-type(even)  {
 	background-color: #b3bec4;
 	background-image: -moz-linear-gradient(top,  #b3bec4 0%, #95a0a4 100%);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3bec4), color-stop(100%,#95a0a4));
