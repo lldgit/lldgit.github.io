@@ -127,11 +127,11 @@ background: url(http://lldgit.github.io/Ticket_Header_710x250-adrian.png) no-rep
 	position:absolute;
 	background:white;
 	margin-left:-15px;
-	width:280px;
+	width:275px;
 	transform: rotate(-2deg);
 	border:none;
 	border-radius:5px;
-	box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.60);
+	box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.30);
 	color:black;
 	font-size:16px;
 	font-weight:bold;
@@ -140,7 +140,7 @@ background: url(http://lldgit.github.io/Ticket_Header_710x250-adrian.png) no-rep
 	margin-top:5px;
 }
 .lpo_benefit p {
-	font-size:10px;
+	font-size:12px;
 	font-weight:normal;
 }
 .lpo_fr {
