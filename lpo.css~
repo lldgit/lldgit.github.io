@@ -285,6 +285,7 @@ border-bottom:1px solid white;
 	font-size:15px;
 	margin:1px!important;
 	padding:1px!important;
+	margin-left:15px;
 }
 #accordion .ui-accordion-header {
 	background-color: #ccc;

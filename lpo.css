@@ -380,6 +380,9 @@ border-bottom:1px solid white;
 	font-size:10px;
 	font-weight:normal;
 }
+.lpo_bigs {
+	margin-top:-10px;
+}
 .lpo_bigs h4 {
 	margin:0!important;
 	padding:0!important;
