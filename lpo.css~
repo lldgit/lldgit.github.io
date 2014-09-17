@@ -48,6 +48,9 @@ background: url(http://lldgit.github.io/Ticket_Header_710x250-adrian.png) no-rep
 .w60 {
 	width:60%;
 }
+.w70 {
+	width:70%;
+}
 .w40 {
 	width:37%;
 }
