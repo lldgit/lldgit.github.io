@@ -36,7 +36,7 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">jetzt sichern</a></div>'+
 '</li>'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink2\" href=\"' + lpolink1 + '\">jetzt sichern</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink2\" href=\"' + lpolink2 + '\">jetzt sichern</a></div>'+
 '</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
@@ -49,10 +49,10 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\" style=\"margin-top: -10px;\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink1 + '\">jetzt sichern</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink3 + '\">jetzt sichern</a></div>'+
 '</li>'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink1 + '\">jetzt sichern</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink4 + '\">jetzt sichern</a></div>'+
 '</li>'+
 '</ul>'+
 '</li>'+
