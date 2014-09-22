@@ -10,8 +10,8 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Kinder (3-11)</li>'+
 '<li class=\"secondchild\" style=\"width: 50%;\">Erwachsene</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Kinder (3-11)</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\"><span>' + preis_tageskarte_kind_ab + ' €</span></li>'+
