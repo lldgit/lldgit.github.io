@@ -409,3 +409,6 @@ border-bottom:1px solid white;
 	width:35%;
 	text-align:center;
 }
+.lpo_standardinner p {
+	padding:5px;
+}
