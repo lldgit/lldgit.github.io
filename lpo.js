@@ -44,3 +44,4 @@ var sidebarbox='<div class="lpo_mid lpo_red" style="width: 98%; margin: 0px; pad
 </li>
 </ul>
 </div>';
+$( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
