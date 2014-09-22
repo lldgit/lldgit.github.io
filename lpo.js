@@ -5,7 +5,7 @@ var preis_familienkarte_5personen_ab="104,27";
 
 //AB HIER NICHT MEHR EDITIEREN ODER ES MOEGEN DIE FINGER ABFALLEN
 
-var sidebarbox='<div class="lpo_mid lpo_red" style="width: 98%; margin: 0px; padding: 3px;">
+var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">
 <h3>Bis zu 25% online sparen</h3>
 <ul>
 <li class=\"lpo_bigs\"> 
