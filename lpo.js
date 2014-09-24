@@ -7,10 +7,10 @@ var preis_familienkarte_5personen_ab="104,27";
 
 
 if(Math.round(Math.random() * 1) + 1==1) {
-   var lpolink1="http://www.legoland.de/Jetzt-Tickets-sichern/";
-   var lpolink2="http://www.legoland.de/Jetzt-Tickets-sichern/";
-   var lpolink3="http://www.legoland.de/Jetzt-Tickets-sichern/"; 
-   var lpolink4="http://www.legoland.de/Jetzt-Tickets-sichern/";   
+   var lpolink1="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=27101&amp;productId=176647";
+   var lpolink2="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=27101&amp;productId=176647";
+   var lpolink3="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=40601&amp;productId=176648"; 
+   var lpolink4="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=40601&amp;productId=176649";   
 } else {
    var lpolink1="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=27101&amp;productId=176647";
    var lpolink2="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=27101&amp;productId=176647";
