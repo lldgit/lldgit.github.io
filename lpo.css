@@ -392,6 +392,9 @@ border-bottom:1px solid white;
 	margin-bottom:-8px!important;
 	font-size:14px;
 }
+.lpo_bigs small {
+	font-size:8px;
+}
 .lpo_bigs_second li {
 	float:left;
 	margin-bottom:2px;
