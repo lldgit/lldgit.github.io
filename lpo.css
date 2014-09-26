@@ -201,7 +201,7 @@ margin-left:10px;
 	padding-right:10px;
 }
 .lpo_header h1 {
-	color:white;
+	color:white!important;
 	font-size:28px;
 	margin-top:-8px;
 	margin-bottom:30px;
@@ -209,7 +209,7 @@ margin-left:10px;
 .lpo_header h2 {
 	font-size:14px;
 	margin-top:65px;
-	color:white;
+	color:white!important;
 }
 .lpo_mini li {
 	padding:2px;
