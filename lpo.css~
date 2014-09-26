@@ -204,6 +204,7 @@ margin-left:10px;
 	color:white!important;
 	font-size:32px;
 	margin-top:-8px;
+	margin-top:85px;	
 	margin-bottom:30px;
 }
 .lpo_header h2 {
