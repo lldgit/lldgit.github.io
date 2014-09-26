@@ -193,9 +193,10 @@ margin-left:10px;
 	 margin-bottom:5px;
 }
 .lpo_header h1, .lpo_header h2 {
-	background:white;
+	color:white;
 	display:inline-block;
 	padding:3px;
+	text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
 	padding-left:10px;
 	padding-right:10px;
 }
