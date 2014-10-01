@@ -272,7 +272,7 @@ border-bottom:1px solid white;
 	color:grey; font-size:11px; padding-left:10px;
 }
 #abox {
-color:grey; font-size:10px; padding-left:10px;
+color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 }
 .lpo_payment img {
 	width:60px;
