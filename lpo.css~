@@ -526,5 +526,5 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 }
 .lpo_legoblue {
 	background:#005eb8!important;
-	color:white;
+	color:white!important;
 }
