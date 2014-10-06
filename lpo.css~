@@ -536,5 +536,5 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	float:left;
 }
 .lpo_winterstart img {
-	width:228px;
+	width:220px;
 }
