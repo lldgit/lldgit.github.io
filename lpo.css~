@@ -506,6 +506,7 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 }
 #accordion2 img {
 	float:left;	
+	margin:3px;
 }
 #accordion2 .ui-accordion-content > * {
 	margin: 0;
