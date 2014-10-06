@@ -14,6 +14,9 @@ background: url(http://lldgit.github.io/Ticket_Header_710x420.png) no-repeat;
 .lpo_innerbg_wissen {
 background: url(http://lldgit.github.io/Info_Header_710x700.png) no-repeat #e4e4e4;
 }	
+.lpo_innerbg_winter {
+background: url(http://lldgit.github.io/winter/header_710x500.png) no-repeat #e4e4e4;
+}	
 .lpo_mid, .lpo_mid_smart {
 	float:left;
 	border:2px solid transparent;
