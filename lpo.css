@@ -532,3 +532,6 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	background:#005eb8!important;
 	color:white!important;
 }
+.lpo_winterstart li {
+	float:left;
+}

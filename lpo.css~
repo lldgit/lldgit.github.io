@@ -496,7 +496,7 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	width: 100%;
 	background-color: #f3f3f3;
 	color: #777;
-	height:460px;
+	height:490px;
 	font-size: 10pt;
 	line-height: 16pt;
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2),
@@ -531,4 +531,7 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 .lpo_legoblue {
 	background:#005eb8!important;
 	color:white!important;
+}
+.lpo_winterstart li {
+	float:left;
 }
