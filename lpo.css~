@@ -15,7 +15,7 @@ background: url(http://lldgit.github.io/Ticket_Header_710x420.png) no-repeat;
 background: url(http://lldgit.github.io/Info_Header_710x700.png) no-repeat #e4e4e4;
 }	
 .lpo_innerbg_winter {
-background: url(http://lldgit.github.io/winter/header_710x500_version1.png) no-repeat #e4e4e4;
+background: url(http://lldgit.github.io/winter/header_710x500_version1.jpg) no-repeat;
 }	
 .lpo_mid, .lpo_mid_smart {
 	float:left;
@@ -523,4 +523,8 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 #accordion2 .ui-accordion-content:last-of-type {
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2),
 				inset 0px 0 0px 0px rgba(0, 0, 0, .5);
+}
+.lpo_legoblue {
+	background:#005eb8!important;
+	color:white;
 }
