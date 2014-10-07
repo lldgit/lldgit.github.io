@@ -34,7 +34,7 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:10px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">Tickets jetzt sichern</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">Tickets jetzt sichern</a></div>'+
 '</li>'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
 '<div style=\"margin-top: -14px;\">&nbsp;</div>'+
