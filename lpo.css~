@@ -575,13 +575,16 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	margin-bottom:3px;
 }
 #rumblebumble {
-	position:absolute;
+		position:absolute;
 	z-index:0;
 	display:block;
-	height:700px;
+	height:100px;
 	width:100px;
-	background:green;
+	background:red;
+	transform: rotate(90deg);
 }
-.MainMenu {
-	z-index:2!important;
+#rumblediv {
+
+	width:850px;
+	margin
 }

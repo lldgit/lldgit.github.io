@@ -575,7 +575,7 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	margin-bottom:3px;
 }
 #rumblebumble {
-	position:absolute;
+		position:absolute;
 	z-index:0;
 	display:block;
 	height:100px;
