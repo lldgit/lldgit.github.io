@@ -574,3 +574,11 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	margin-right:3px;
 	margin-bottom:3px;
 }
+#rumblebumble {
+	position:absolute;
+	z-index:1;
+	display:block;
+	height:100px;
+	width:100px;
+	background:red;
+}
