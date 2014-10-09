@@ -583,5 +583,5 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	background:green;
 }
 .MainMenu {
-	z-index:2;
+	z-index:2!important;
 }
