@@ -581,7 +581,7 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	margin-left:-113px;
 	font-size:14px;
 	text-align:center;
-	width:200px;
+	width:220px;
 	margin-top:350px;
 background: rgb(218,41,28); /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
