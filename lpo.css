@@ -578,10 +578,8 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	position:absolute;
 	z-index:0;
 	display:block;
-	height:700px;
+	height:100px;
 	width:100px;
-	background:green;
-}
-.MainMenu {
-	z-index:2!important;
+	background:red;
+	transform: rotate(90deg);
 }
