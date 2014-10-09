@@ -14,9 +14,3 @@ if(url1.indexOf(str) != -1) {
     box-shadow:'0 0 9px #333',
   });  
 }	
-
-	@-webkit-keyframes redPulse {
-	  from { background-color: #bc330d; -webkit-box-shadow: 0 0 9px #333; }
-	  50% { background-color: #e33100; -webkit-box-shadow: 0 0 18px #e33100; }
-	  to { background-color: #bc330d; -webkit-box-shadow: 0 0 9px #333; }
-	}
