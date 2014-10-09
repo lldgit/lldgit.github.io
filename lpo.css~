@@ -585,4 +585,5 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	transform: rotate(-90deg);
 	color:white!important;
 	text-decoration:none;
+	border-radius-top:10px;
 }
