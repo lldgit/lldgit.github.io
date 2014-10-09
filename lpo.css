@@ -576,10 +576,12 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 }
 #rumblebumble {
 		position:absolute;
-	z-index:0;
+	z-index:-1;
 	display:block;
-	height:100px;
+	height:50px;
 	width:100px;
 	background:red;
-	transform: rotate(90deg);
+	transform: rotate(-90deg);
+	color:white!important;
+	text-decoration:none;
 }
