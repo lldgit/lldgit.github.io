@@ -578,7 +578,7 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	position:absolute;
 	display:block;
 	height:25px;
-	margin-left:-110px;
+	margin-left:-113px;
 	font-size:14px;
 	text-align:center;
 	width:200px;
