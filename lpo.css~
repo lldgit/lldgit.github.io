@@ -578,7 +578,7 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 	position:absolute;
 	z-index:1;
 	display:block;
-	height:100px;
+	height:700px;
 	width:100px;
 	background:green;
 }
