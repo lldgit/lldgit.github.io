@@ -5,15 +5,5 @@ if(url1.indexOf(str) != -1) {
 	$( "#funbox" ).replaceWith(rumble);
 var el = $('#rumblebumble .target');
 
-el.pulse(
-  {
-    backgroundColor : 'purple',
-    color           : 'white'
-  },
-  {
-    returnDelay : 1000,
-    interval    : 1000,
-    pulses      : 3
-  }	
-}	
+
 
