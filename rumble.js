@@ -10,4 +10,4 @@ if(url1.indexOf(str) != -1) {
     }
          
 
-}	
+}
