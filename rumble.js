@@ -5,7 +5,7 @@ if(url1.indexOf(str) != -1) {
 	$( "#funbox" ).replaceWith(rumble);
     for (var i = 0; i < 3; i++ ) {
         $("#rumblebumble")
-       		 .animate( { backgroundColor: "#831911" }, 800 )
+       		 .animate( { backgroundColor: "#e45b51" }, 800 )
             .animate( { backgroundColor: "#da291c" }, 800 );
             
     }
