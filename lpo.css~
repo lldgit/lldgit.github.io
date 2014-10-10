@@ -568,6 +568,9 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 .lpo_winterstart li {
 	float:left;
 }
+.lpo_winterstart p {
+	font-size:12px;
+}
 .lpo_winterstart img {
 	width:192px;
 	margin-right:3px;
