@@ -19,6 +19,7 @@ if(url1.indexOf(str) != -1) {
 if(url1=="http://www.legoland.de") {
 	var finderror=2;
 }
+alert(document.url)
 var str="/en/";
 var url1=document.URL;
 if(url1.indexOf(str) == -1 && finderror==1) {	

@@ -1,6 +1,6 @@
 var str="/bus";
 var url1=document.URL;
-var finderror=5;
+var finderror=1;
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
