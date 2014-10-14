@@ -12,6 +12,10 @@ var str="Gruppen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
+var str="gruppen";
+if(url1.indexOf(str) != -1) {	
+	var finderror=2;
+}
 var str="/winterangebote";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
