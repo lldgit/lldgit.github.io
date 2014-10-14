@@ -1,7 +1,7 @@
 var str="/Entdeckt-LEGOLAND/Restaurant/";
 var url1=document.URL;
 if(url1.indexOf(str) != -1) {	
-	var rumble="<div id=\"funbox\"></div><a href=\"/\" id=\"rumblebumble\" style=\"background-color:#da291c;\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Navi\', \'Jetzt Tickets 25 guenstiger\']);\">Jetzt Online-Tickets <strong>25%</strong> günstiger</a>";
+	var rumble="<div id=\"funbox\"></div><a href=\"/Jetzt-Tickets-sichern/\" id=\"rumblebumble\" style=\"background-color:#da291c;\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Navi\', \'Jetzt Tickets 25 guenstiger\']);\">Online-Tickets</a>";
 	$( "#funbox" ).replaceWith(rumble);
     for (var i = 0; i < 3; i++ ) {
         $("#rumblebumble")
