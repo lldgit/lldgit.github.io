@@ -1,6 +1,6 @@
 var str="/bus";
 var url1=document.URL;
-var finderror=5;
+var finderror=1;
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
@@ -12,7 +12,13 @@ var str="/gruppen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
-
+var str="/winterangebote";
+if(url1.indexOf(str) != -1) {	
+	var finderror=2;
+}
+if(url1=="http://www.legoland.de") {
+	var finderror=2;
+}
 var str="/en/";
 var url1=document.URL;
 if(url1.indexOf(str) == -1 && finderror==1) {	
