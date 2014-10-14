@@ -16,7 +16,7 @@ var str="/winterangebote";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
-if(url1=="http://www.legoland.de") {
+if(url1=="http://www.legoland.de/") {
 	var finderror=2;
 }
 var str="/en/";
