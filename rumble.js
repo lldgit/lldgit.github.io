@@ -1,4 +1,4 @@
-var str="/bus";
+var str="bus";
 var url1=document.URL;
 var finderror=1;
 if(url1.indexOf(str) != -1) {	

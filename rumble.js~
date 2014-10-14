@@ -4,7 +4,7 @@ var finderror=1;
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
-var str="/firmen";
+var str="Firmen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
