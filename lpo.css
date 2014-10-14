@@ -580,12 +580,12 @@ color:grey; font-size:10px; padding-left:10px; padding-right:5px;
 #rumblebumble {
 	position:absolute;
 	display:block;
-	height:25px;
-	line-height:25px;
+	height:30px;
+	line-height:30px;
 	margin-left:-127px;
-	font-size:14px;
+	font-size:16px;
 	text-align:center;
-	width:230px;
+	width:170px;
 	margin-top:330px;
 
 
