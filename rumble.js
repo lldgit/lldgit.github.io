@@ -1,4 +1,4 @@
-var str="bus";
+var str="Bus";
 var url1=document.URL;
 var finderror=1;
 if(url1.indexOf(str) != -1) {	
@@ -8,7 +8,7 @@ var str="Firmen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
-var str="/gruppen";
+var str="Gruppen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
