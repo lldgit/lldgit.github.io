@@ -1,7 +1,7 @@
-var preis_tageskarte_erwachsener_ab="30,38";
-var preis_tageskarte_kind_ab="27,00";
-var preis_familienkarte_4personen_ab="103,27";
-var preis_familienkarte_5personen_ab="104,27";
+var preis_tageskarte_erwachsener_ab="28,35";
+var preis_tageskarte_kind_ab="25,20";
+var preis_familienkarte_4personen_ab="96,39";
+var preis_familienkarte_5personen_ab="101,39";
 //AB HIER NICHT MEHR EDITIEREN ODER ES MOEGEN DIE FINGER ABFALLEN
 var str="Anreise";
 var url1=document.URL;
@@ -20,7 +20,7 @@ if(url1.indexOf(str) != -1) {
 
 
 var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Bis zu 25% online sparen</h3>'+
+'<h3>Bis zu 30% online sparen</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
