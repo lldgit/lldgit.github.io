@@ -5,7 +5,7 @@ if(url1.indexOf(str) != -1) {
 	$( "#funbox" ).replaceWith(rumble);
     for (var i = 0; i < 3; i++ ) {
         $("#rumblebumble")
-        		.animate( { marginTop: '300px'}, 100 )
+        		.delay(300).animate( { marginTop: '300px'}, 100 )
         		.animate( { marginTop: '315px'}, 100 )
         		.animate( { marginTop: '300px'}, 100 )
         		.animate( { marginTop: '315px'}, 500 )
