@@ -8,7 +8,7 @@ var str="Firmen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
-var str="/gruppen";
+var str="Gruppen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
