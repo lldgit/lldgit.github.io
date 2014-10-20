@@ -7,7 +7,6 @@ if (bowser.msie) {
 if(bowser.safari) {
   var finderror=2;
 }
-alert(bowser.version);
 var str="Bus";
 var url1=document.URL;
 var finderror=1;
