@@ -8,6 +8,14 @@ var str="Firmen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
+var str="bus";
+if(url1.indexOf(str) != -1) {	
+	var finderror=2;
+}
+var str="firmen";
+if(url1.indexOf(str) != -1) {	
+	var finderror=2;
+}
 var str="Gruppen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
