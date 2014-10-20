@@ -4,7 +4,9 @@ if (bowser.msie && bowser.version <= 11) {
   var finderror=2;
 }
 
-
+if(bowser.safari) {
+  var finderror=2;
+}
 
 var str="Bus";
 var url1=document.URL;
