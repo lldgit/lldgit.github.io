@@ -63,6 +63,6 @@ if(url1.indexOf(str) == -1 && finderror==1) {
             
     }
      var rumble2="<div class=\"c\"></div><a href=\"/Jetzt-Tickets-sichern/\">Nur kurze Zeit: Familientickets ab 96,39 &euro; und gruselige Halloween-Wochen erleben!</a>";
-	$( ".c" ).replaceWith(rumble2);
+
 }
 
