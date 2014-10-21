@@ -3,7 +3,6 @@
 if (bowser.msie) {
   var finderror=2;
 }
-
 if(bowser.safari) {
   var finderror=2;
 }
