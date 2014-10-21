@@ -20,6 +20,14 @@ var str="Presse";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
+var str="Preise-und-Tickets";
+if(url1.indexOf(str) != -1) {	
+	var finderror=2;
+}
+var str="Prices-and-Tickets";
+if(url1.indexOf(str) != -1) {	
+	var finderror=2;
+}
 var str="bus";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
