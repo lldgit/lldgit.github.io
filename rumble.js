@@ -67,7 +67,7 @@ if(url1.indexOf(str) == -1 && finderror==1 && browsererror==1) {
 
 
 if(url1.indexOf(str) == -1 && finderror==1) {	
+
+}
      var rumble2="<a href=\"/Jetzt-Tickets-sichern/\" class=\"topstoerer\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Content\', \'FamilienticketsHalloween\']);\">Nur kurze Zeit: Familiekarten ab 96,39 &euro; und gruselige Halloween-Wochen erleben &raquo;</a><div class=\"c\"></div>";
 $( ".c:first" ).replaceWith(rumble2);
-}
-
