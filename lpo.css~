@@ -613,7 +613,7 @@ background: blue;
 }
 .topstoerer {
 	width:500px;
-	color:white;
+	color:white!important;
 	z-index:3;
 	text-align:center;
 	font-weight:bold;
