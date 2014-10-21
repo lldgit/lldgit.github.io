@@ -1,4 +1,4 @@
-var preis_tageskarte_erwachsener_ab="28,36";
+var preis_tageskarte_erwachsener_ab="28,35";
 var preis_tageskarte_kind_ab="25,20";
 var preis_familienkarte_4personen_ab="96,39";
 var preis_familienkarte_5personen_ab="101,39";
