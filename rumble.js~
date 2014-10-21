@@ -62,7 +62,7 @@ if(url1.indexOf(str) == -1 && finderror==1) {
             .animate( { backgroundColor: "#da291c" }, 800 );
             
     }
-     var rumble2="<div class=\"c\"></div><a href=\"/Jetzt-Tickets-sichern/\">Nur kurze Zeit: Familientickets ab 96,39 &euro; und gruselige Halloween-Wochen erleben!</a>";
-	$( ".c" ).replaceWith(rumble2);
+     var rumble2="<div class=\"c\"></div><a href=\"/Jetzt-Tickets-sichern/\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Content\', \'FamilienticketsHalloween\']);\">Nur kurze Zeit: Familientickets ab 96,39 &euro; und gruselige Halloween-Wochen erleben!</a>";
+$( ".c:first" ).replaceWith(rumble2);
 }
 
