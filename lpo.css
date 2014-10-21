@@ -617,7 +617,7 @@ background: blue;
 	z-index:3;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	text-align:center;
 	font-weight:bold;
 	padding:6px;
