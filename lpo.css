@@ -283,6 +283,7 @@ border-bottom:1px solid white;
 	line-height:28px;
 	width:50%;
 	float:left;	
+	text-align:center!important;
 }
 .lpo_miniprice li {
 	float:left;
