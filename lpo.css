@@ -24,6 +24,9 @@ background: url(http://lldgit.github.io/Info_Header_710x700.png) no-repeat #e4e4
 .lpo_innerbg_winter {
 background: url(http://lldgit.github.io/winter/header_winterflyer_880x700.jpg) no-repeat;
 }	
+.lpo_innerbg_jk {
+background: url(http://lldgit.github.io/jk/JaKa_Header2_710x250.png) no-repeat;
+}	
 .lpo_mid, .lpo_mid_smart {
 	float:left;
 	border:2px solid transparent;
