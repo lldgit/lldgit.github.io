@@ -282,10 +282,6 @@ border-bottom:1px solid white;
 	font-size:25px;
 	line-height:28px;
 }
-.lpo_merlin_attraktionen img {
-	width:75px;
-	padding:5px;
-}
 .lpo_miniprice li {
 	float:left;
 	list-style:none;
