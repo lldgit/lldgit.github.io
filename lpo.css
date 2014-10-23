@@ -285,6 +285,9 @@ border-bottom:1px solid white;
 	float:left;	
 	text-align:center!important;
 }
+.lpo_ap {
+	padding-bottom:5px;
+} 
 .lpo_miniprice li {
 	float:left;
 	list-style:none;
