@@ -24,7 +24,7 @@ var str="Preise-und-Tickets";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
-var str="Presse";
+var str="Prices-and-Tickets";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }

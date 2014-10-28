@@ -16,6 +16,10 @@ var str="Firmen";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
 }
+var str="adventskalender";
+if(url1.indexOf(str) != -1) {	
+	var finderror=2;
+}
 var str="Presse";
 if(url1.indexOf(str) != -1) {	
 	var finderror=2;
