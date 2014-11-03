@@ -15,6 +15,21 @@ width: 871px;
 .lpo_innerbg {
 border-radius: 5px; border: none;	
 }
+.lpo_innerbg_gruen {
+background: url(http://lldgit.github.io/Header_gruen_710x420.png) no-repeat;
+}	
+.lpo_innerbg_rosa {
+background: url(http://lldgit.github.io/Header_rosa_710x420.png) no-repeat;
+}	
+.lpo_innerbg_rot {
+background: url(http://lldgit.github.io/Header_rot_710x420.png) no-repeat;
+}	
+.lpo_innerbg_tuerkis {
+background: url(http://lldgit.github.io/Header_tuerkis_710x420.png) no-repeat;
+}	
+.lpo_innerbg_violett {
+background: url(http://lldgit.github.io/Header_violett_710x420.png) no-repeat;
+}	
 .lpo_innerbg_ticket {
 background: url(http://lldgit.github.io/Ticket_Header_710x420.png) no-repeat;
 }	
