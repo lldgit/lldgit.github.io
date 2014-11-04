@@ -1,7 +1,7 @@
 
 var str="angebote";
 var url1=document.URL;
-if (screen.width <= 800 && url1.indexOf(str) != -1) {
+if (screen.width <= 800) {
 	window.location = "http://m.legoland.de";
 }
 
