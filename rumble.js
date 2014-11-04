@@ -3,7 +3,7 @@
 var str="angebote";
 var url1=document.URL;
 if (screen.width <= 800 AND url1.indexOf(str) != -1) {
-window.location("http://m.legoland.de/"); 
+window.location = "http://m.legoland.de"
 }
 
 var browsererror=2;
