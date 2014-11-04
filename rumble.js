@@ -1,7 +1,7 @@
 
 var str="angebote";
 var url1=document.URL;
-if (screen.width <= 800  && url1!=="http://www.legoland.de/winterangebote/") {
+if (screen.width <= 800  && url1.indexOf(str) != -1) {
 	window.location = "http://m.legoland.de";
 }
 
@@ -16,7 +16,7 @@ if (bowser.safari) {
 var str="Bus";
 var url1=document.URL;
 var finderror=1;
-if(url1.indexOf(str) != -1) {	
+if() {	
 	var finderror=2;
 }
 var str="Firmen";
