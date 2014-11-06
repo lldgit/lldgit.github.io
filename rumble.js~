@@ -5,8 +5,8 @@ if (screen.width <= 800 && url1.indexOf(str) = -1) {
 	window.location = "http://m.legoland.de";
 }
 
-var browsererror=2;
-var finderror=2
+var browsererror=1;
+var finderror=1
 if (bowser.msie) {
   var browsererror=2;
 }
