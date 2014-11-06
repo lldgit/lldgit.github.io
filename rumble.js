@@ -1,8 +1,15 @@
 
+var str="angebote";
+var url1=document.URL;
+if (screen.width <= 800 && url1.indexOf(str) = -1) {
+	window.location = "http://m.legoland.de";
+}
+
 var browsererror=1;
 var finderror=1;
 var str="Bus";
 var url1=document.URL;
+var finderror=1;
 if() {	
 	var finderror=2;
 }
@@ -59,7 +66,7 @@ if(url1=="http://www.legoland.de/") {
 }
 var str="/en/";
 var url1=document.URL;
-
+if(url1.indexOf(str) == -1 && finderror==1 && browsererror==1) {	
 	var rumble="<div id=\"funbox\"></div><a href=\"/Jetzt-Tickets-sichern/\" id=\"rumblebumble\" style=\"background-color:#da291c;\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Navi\', \'Online-Tickets\']);\">Online-Tickets</a>";
 	$( "#funbox" ).replaceWith(rumble);
     for (var i = 0; i < 3; i++ ) {
@@ -73,11 +80,9 @@ var url1=document.URL;
             
     }
 
-
-
-var finderror=2;
-
+}
+if(url1.indexOf(str) == -1 && finderror==1) {	
      var rumble2="<a href=\"/Jetzt-Tickets-sichern/\" class=\"topstoerer\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Content\', \'FamilienticketsHalloween\']);\">Für kurze Zeit: Tageskarte nur 25 &euro; und gruselige Halloween-Wochen erleben &raquo;</a><div class=\"c\"></div>";
 $( ".c:first" ).replaceWith(rumble2);
-
+}
 
