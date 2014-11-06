@@ -6,7 +6,7 @@ if (screen.width <= 800 && url1.indexOf(str) = -1) {
 }
 
 var browsererror=1;
-var finderror=1
+var finderror=1;
 var str="Bus";
 var url1=document.URL;
 var finderror=1;
