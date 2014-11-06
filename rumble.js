@@ -3,7 +3,6 @@ var browsererror=1;
 var finderror=1;
 var str="Bus";
 var url1=document.URL;
-var finderror=1;
 if() {	
 	var finderror=2;
 }
