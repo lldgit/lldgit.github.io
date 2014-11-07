@@ -2,7 +2,7 @@
 var str ="angebote";
 var url1=document.URL;
 if (screen.width <= 800 && url1.indexOf(str) = -1) {
-	window.location = "http://m.legoland.de";
+	//window.location = "http://m.legoland.de";
 }
 
 if(test==100) {	
