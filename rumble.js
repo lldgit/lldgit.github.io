@@ -123,9 +123,11 @@ var str ="Piraten-Bowling";
 var url1=document.URL;
 if (url1.indexOf(str) != -1) {
 	
-var anzahl = $.cookie('lldbig2');
-if(anzahl === 'undefined') {
+
+if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	var anzahl=0;
+} else {
+	var anzahl=$.cookie('lldbig2');
 }
 alert(anzahl);
 	if(anzahl < 2) {
