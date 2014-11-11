@@ -4,8 +4,9 @@ var url1=document.URL;
 if (url1.indexOf(str) != -1) {
 	$('#sidebar').animate({ marginTop: '120px'}, 1000);
 	$('#maincontent').animate({ marginTop: '120px'}, 1000);
-	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\" style=\"position:absolute; margin-top:150px; width:880px; \">";
+	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\" style=\"position:absolute; margin-top:150px; opacity:0; width:880px; \">";
 	$( "#funbox" ).replaceWith(rumble);
+	$('#sidebar').animate({ opacity: '1'}, 1000);
 }
 
 

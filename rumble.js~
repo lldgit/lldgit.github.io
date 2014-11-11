@@ -2,9 +2,9 @@
 var str ="Piraten-Bowling";
 var url1=document.URL;
 if (url1.indexOf(str) != -1) {
-	$('#sidebar').animate({ marginTop: '100px'}, 1000);
-	$('#maincontent').animate({ marginTop: '100px'}, 1000);
-	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\" style=\"position:absolute; margin-top:140px; width:880px; \">";
+	$('#sidebar').animate({ marginTop: '120px'}, 1000);
+	$('#maincontent').animate({ marginTop: '120px'}, 1000);
+	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\" style=\"position:absolute; margin-top:150px; width:880px; \">";
 	$( "#funbox" ).replaceWith(rumble);
 }
 
