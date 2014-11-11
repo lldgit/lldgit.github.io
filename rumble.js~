@@ -134,7 +134,7 @@ alert(anzahl);
 	$( "#funbox" ).replaceWith(rumble);
 	$('#himage').animate({ opacity: 1}, 1500);
 	$.removeCookie('lldbig');	
-	$.cookie('lldbig', anzahl+1);
+	$.cookie('lldbig', parseInt(anzahl)+parseInt(1));
 	
 	}
 	
