@@ -4,8 +4,8 @@ var url1=document.URL;
 if (url1.indexOf(str) != -1) {
 	$('#sidebar').animate({ marginTop: '100px'}, 1000);
 	$('#maincontent').animate({ marginTop: '100px'}, 1000);
-	var rumble="<div id=\"funbox\"></div><img src='http://lldgit.github.io/bigger.png';";
-	$( "#funbox" ).delay(1000).replaceWith(rumble);
+	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\">";
+	$( "#funbox" ).replaceWith(rumble);
 }
 
 
