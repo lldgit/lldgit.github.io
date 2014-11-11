@@ -2,7 +2,7 @@
 var str ="Piraten-Bowling";
 var url1=document.URL;
 if (url1.indexOf(str) != -1) {
-	alert("11111");
+	$(this).find('.MainMenu').animate({ marginTop: '50px', opacity: 0.5 }, 1000);
 }
 
 
