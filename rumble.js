@@ -123,7 +123,10 @@ var str ="Piraten-Bowling";
 var url1=document.URL;
 if (url1.indexOf(str) != -1) {
 	
-var anzahl = $.cookie('lldbig');
+var anzahl = $.cookie('lldbig2');
+if(anzahl=="undefined") {
+	var anzahl=0;
+}
 alert(anzahl);
 	if(anzahl < 2) {
 	
@@ -133,8 +136,8 @@ alert(anzahl);
 	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\" id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:880px; \">";
 	$( "#funbox" ).replaceWith(rumble);
 	$('#himage').animate({ opacity: 1}, 1500);
-	$.removeCookie('lldbig');	
-	$.cookie('lldbig', parseInt(anzahl)+parseInt(1));
+	$.removeCookie('lldbig2');	
+	$.cookie('lldbig2', parseInt(anzahl)+parseInt(1));
 	
 	}
 	
