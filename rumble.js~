@@ -1,7 +1,7 @@
 
 var str ="angebote";
 var url1=document.URL;
-if (url1.indexOf(str) !== -1) {
+if (url1.indexOf(str) != -1) {
 	alert("11111");
 }
 
