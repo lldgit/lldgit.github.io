@@ -6,7 +6,7 @@ if (url1.indexOf(str) != -1) {
 	$('#maincontent').animate({ marginTop: '120px'}, 1000);
 	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\" id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:880px; \">";
 	$( "#funbox" ).replaceWith(rumble);
-	$('#himage').animate({ opacity: 1}, 1000);
+	$('#himage').animate({ opacity: 1}, 1500);
 }
 
 
