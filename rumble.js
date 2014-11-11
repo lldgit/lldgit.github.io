@@ -124,7 +124,7 @@ var url1=document.URL;
 if (url1.indexOf(str) != -1) {
 	
 var anzahl = $.cookie('lldbig2');
-if(anzahl=="undefined") {
+if(anzahl === 'undefined') {
 	var anzahl=0;
 }
 alert(anzahl);
