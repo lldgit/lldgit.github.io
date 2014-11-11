@@ -129,7 +129,6 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 } else {
 	var anzahl=$.cookie('lldbig2');
 }
-alert(anzahl);
 	if(anzahl < 3 && $.cookie('lldbig2')!="1") {
 	
 	
