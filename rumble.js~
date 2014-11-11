@@ -130,7 +130,7 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	var anzahl=$.cookie('lldbig2');
 }
 alert(anzahl);
-	if(anzahl < 3) {
+	if(anzahl < 3 && $.cookie('lldbig2')!=="1") {
 	
 	
 	$('#sidebar').animate({ marginTop: '120px'}, 1000);
@@ -156,7 +156,7 @@ function keinlayer() {
 	$('#maincontent').animate({ marginTop: '0px'}, 1000);
 	var rumble="<div id=\"funbox\"></div>";
 	$( "#funbox" ).replaceWith(rumble);
-	$('#himage').animate({ opacity: 0}, 500);
+	$('#himage').animate({ opacity: 0}, 800);
 }
 
 
