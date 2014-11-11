@@ -2,8 +2,10 @@
 var str ="Piraten-Bowling";
 var url1=document.URL;
 if (url1.indexOf(str) != -1) {
-	$('#sidebar').animate({ marginTop: '50px'}, 1000);
-	$('#maincontent').animate({ marginTop: '50px'}, 1000);
+	$('#sidebar').animate({ marginTop: '100px'}, 1000);
+	$('#maincontent').animate({ marginTop: '100px'}, 1000);
+	var rumble="<div id=\"funbox\"></div><a href=\"/Jetzt-Tickets-sichern/\" id=\"rumblebumble\" style=\"background-color:#da291c;\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Navi\', \'Online-Tickets\']);\">Online-Tickets</a>";
+	$( "#funbox" ).delay(1000).replaceWith(rumble);
 }
 
 
