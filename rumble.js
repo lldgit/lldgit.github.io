@@ -1,4 +1,10 @@
 
+var str ="angebote";
+var url1=document.URL;
+if (url1.indexOf(str) !== -1) {
+	alert("11111");
+}
+
 
 if(test==100) {	
 	var rumble="<div id=\"funbox\"></div><a href=\"/Jetzt-Tickets-sichern/\" id=\"rumblebumble\" style=\"background-color:#da291c;\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Navi\', \'Online-Tickets\']);\">Online-Tickets</a>";
