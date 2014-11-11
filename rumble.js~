@@ -117,19 +117,31 @@
 }));
 
 
-$.cookie('name', 'value');
 
-
-alert($.cookie('name'));
 
 var str ="Piraten-Bowling";
 var url1=document.URL;
 if (url1.indexOf(str) != -1) {
+	
+	
+var anzahl = $.cookie('lldbig');	
+	if(anzahl < 2) {
+	
+	
 	$('#sidebar').animate({ marginTop: '120px'}, 1000);
 	$('#maincontent').animate({ marginTop: '120px'}, 1000);
 	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\" id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:880px; \">";
 	$( "#funbox" ).replaceWith(rumble);
-	$('#himage').animate({ opacity: 1}, 1500);
+	$('#himage').animate({ opacity: 1}, 1500);	
+	$.cookie('lldbig', anzahl+1);
+	
+	}
+	
+
+
+
+
+
 }
 
 

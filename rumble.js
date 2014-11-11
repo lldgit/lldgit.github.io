@@ -125,7 +125,7 @@ if (url1.indexOf(str) != -1) {
 	
 	
 var anzahl = $.cookie('lldbig');	
-	if(anzahl < 2) {
+	if(anzahl) {
 	
 	
 	$('#sidebar').animate({ marginTop: '120px'}, 1000);
