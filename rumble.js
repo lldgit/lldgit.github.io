@@ -123,8 +123,7 @@ var str ="Piraten-Bowling";
 var url1=document.URL;
 if (url1.indexOf(str) != -1) {
 	
-	print_r($.cookie('lldbig'));
-var anzahl = $.cookie('lldbig');	
+var anzahl = 1;	
 	if(anzahl < 2) {
 	
 	
