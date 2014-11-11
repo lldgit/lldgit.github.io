@@ -135,7 +135,7 @@ alert(anzahl);
 	
 	$('#sidebar').animate({ marginTop: '120px'}, 1000);
 	$('#maincontent').animate({ marginTop: '120px'}, 1000);
-	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();" style=\"position:absolute; margin-top:90px; border:none; border-radius:20px; padding:3px; margin-left:60px; z-index:100; font-weight:bold; font-size:20px; background:white;\" >x<\/a></div><img src=\"http://lldgit.github.io/bigger.png\" id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:880px; \">";
+	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:90px; border:none; border-radius:20px; padding:3px; margin-left:60px; z-index:100; font-weight:bold; font-size:20px; background:white;\" >x<\/a></div><img src=\"http://lldgit.github.io/bigger.png\" id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:880px; \">";
 	$( "#funbox" ).replaceWith(rumble);
 	$('#himage').animate({ opacity: 1}, 1500);
 	$.removeCookie('lldbig2', { path: '/' });	

@@ -150,6 +150,15 @@ alert(anzahl);
 
 }
 
+function keinlayer() {
+	$.cookie('keinlayer', "1", { path: '/' });
+	$('#sidebar').animate({ marginTop: '0px'}, 1000);
+	$('#maincontent').animate({ marginTop: '0px'}, 1000);
+	var rumble="<div id=\"funbox\"></div>";
+	$( "#funbox" ).replaceWith(rumble);
+	$('#himage').animate({ opacity: 0}, 1500);
+}
+
 
 if(test==100) {	
 	var rumble="<div id=\"funbox\"></div><a href=\"/Jetzt-Tickets-sichern/\" id=\"rumblebumble\" style=\"background-color:#da291c;\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Navi\', \'Online-Tickets\']);\">Online-Tickets</a>";
