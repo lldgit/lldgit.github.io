@@ -133,7 +133,7 @@ alert(anzahl);
 	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/bigger.png\" id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:880px; \">";
 	$( "#funbox" ).replaceWith(rumble);
 	$('#himage').animate({ opacity: 1}, 1500);	
-	$.cookie('lldbig', anzahl++);
+	$.cookie('lldbig', anzahl+1);
 	
 	}
 	
