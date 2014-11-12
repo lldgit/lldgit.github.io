@@ -187,12 +187,9 @@ addEvent(window,"load",function(e) {
         e = e ? e : window.event;
         var from = e.relatedTarget || e.toElement;
         if (!from || from.nodeName == "HTML") {
-            if ( $( "#nllayer" ).is( ":hidden" ) ) {
+            
     $( "#nllayer" ).slideDown( "slow" );
-  } else {
-    $( "#nllayer" ).hide();
-  }
-        }
+
     });
 });
 
