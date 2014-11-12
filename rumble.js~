@@ -149,7 +149,7 @@ var url1=document.URL;
 if (url1.indexOf(str) != -1 && stopp==0) {
 
 
-var rumble="<ul class=\"langselect\"><\/ul><div id=\"nllayer\" style=\"position:absolute; background:blue; height:550px; z-index:100; display:hidden; margin-top:-40px; width:600px; margin-left:150px;\"><\/div>";
+var rumble="<ul class=\"langselect\"><\/ul><div id=\"nllayer\" style=\"position:absolute; background:blue; height:550px; z-index:100; visibility:hidden; margin-top:-40px; width:600px; margin-left:150px;\"><\/div>";
 $( ".langselect" ).replaceWith(rumble);
 
 
