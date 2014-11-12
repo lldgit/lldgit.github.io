@@ -131,7 +131,7 @@ var url1=document.URL;
 
 var index;
 var stopp = 0;
-var stopwort=["bus","firmen","presse","preise","piraten"];
+var stopwort=["bus","firmen","presse","preise"];
 for(index = 0; index < stopwort.length; index++) {
     var wort = str.toLowerCase(stopwort[index]);
     var url1=str.toLowerCase(document.URL);
