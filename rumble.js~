@@ -117,11 +117,34 @@
 }));
 
 
+var wort = "/en/";
+var url1=document.URL;
+	if (url1.indexOf(wort) != -1 ) {
+		var lang="en";
+	}	else {
+		var lang="de";	
+	}
+
+
+
+
+
+var index;
+var stopp = 0;
+var stopwort=["bus","firmen","presse","preise"];
+for(index = 0; index < stopwort.length; index++) {
+    var wort = stopwort[index];
+    var url1=document.URL;
+	if (url1.indexOf(wort) != -1 ) {
+		var stopp=1;
+	}	
+}
+
 
 
 var str ="Piraten-Bowling";
 var url1=document.URL;
-if (url1.indexOf(str) != -1) {
+if (url1.indexOf(str) != -1 && stopp==0) {
 	
 
 if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
@@ -138,7 +161,7 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	$( "#funbox" ).replaceWith(rumble);
 	$('#himage').animate({ opacity: 1}, 1500);
 	$.removeCookie('lldbig2', { path: '/' });	
-	//$.cookie('lldbig2', parseInt(anzahl)+parseInt(1), { path: '/' });
+	$.cookie('lldbig2', parseInt(anzahl)+parseInt(1), { path: '/' });
 	
 	}
 	
