@@ -142,9 +142,18 @@ for(index = 0; index < stopwort.length; index++) {
 
 
 
+
+
 var str ="Piraten-Bowling";
 var url1=document.URL;
 if (url1.indexOf(str) != -1 && stopp==0) {
+
+
+var rumble="<div id=\"clouds\"><\/div><div style=\"position:absolute; background:blue; height:400px; width:200px;\"><\/div>";
+$( "#clouds" ).replaceWith(rumble);
+
+
+
 	
 
 if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
