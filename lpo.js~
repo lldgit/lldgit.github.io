@@ -25,7 +25,7 @@ if(url1.indexOf(str) != -1) {
 
 
 var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Bis zu 30% online sparen</h3>'+
+'<h3>Tageskarte nur 25 &euro;!</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
