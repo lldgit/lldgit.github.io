@@ -133,8 +133,8 @@ var index;
 var stopp = 0;
 var stopwort=["bus","firmen","presse","preise","piraten"];
 for(index = 0; index < stopwort.length; index++) {
-    var wort = stopwort[index];
-    var url1=document.URL;
+    var wort = str.toLowerCase(stopwort[index]);
+    var url1=str.toLowerCase(document.URL);
 	if (url1.indexOf(wort) != -1 ) {
 		var stopp=1;
 	}	
