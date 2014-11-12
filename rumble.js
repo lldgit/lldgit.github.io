@@ -134,7 +134,7 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	
 	$('#sidebar').animate({ marginTop: '120px'}, 1000);
 	$('#maincontent').animate({ marginTop: '120px'}, 1000);
-	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:62px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><img src=\"http://lldgit.github.io/bigger.png\"  id=\"himage\" style=\"position:absolute; border:none; border-radius:5px; margin-top:150px; opacity:0; width:890px; \">";
+	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><img src=\"http://lldgit.github.io/bigger.png\"  id=\"himage\" style=\"position:absolute; border:none; border-radius:5px; margin-top:150px; opacity:0; width:890px; \">";
 	$( "#funbox" ).replaceWith(rumble);
 	$('#himage').animate({ opacity: 1}, 1500);
 	$.removeCookie('lldbig2', { path: '/' });	
