@@ -131,7 +131,7 @@ var url1=document.URL;
 
 var index;
 var stopp = 0;
-var stopwort=["bus","firmen","presse","preise"];
+var stopwort=["bus","firmen","presse","preise","piraten"];
 for(index = 0; index < stopwort.length; index++) {
     var wort = stopwort[index];
     var url1=document.URL;
