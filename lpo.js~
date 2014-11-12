@@ -1,9 +1,12 @@
-var preis_tageskarte_erwachsener_ab="25,00";
-var preis_tageskarte_kind_ab="25,00";
-var preis_familienkarte_4personen_ab="95,00";
-var preis_familienkarte_5personen_ab="109,00";
+var preis_tageskarte_erwachsener_ab="33,20";
+var preis_tageskarte_kind_ab="29,60";
+var preis_familienkarte_4personen_ab="108,00";
+var preis_familienkarte_5personen_ab="120,00";
 
-
+   var lpolink1="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&storeId=10663&catalogId=24051&categoryId=27101&productId=6211000033";
+   var lpolink2="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&storeId=10663&catalogId=24051&categoryId=27101&productId=6211000033";
+   var lpolink3="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&storeId=10663&catalogId=24051&categoryId=40601&productId=31605"; 
+   var lpolink4="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&storeId=10663&catalogId=24051&categoryId=40601&productId=103112"; 
 
 
 
@@ -11,21 +14,15 @@ var preis_familienkarte_5personen_ab="109,00";
 var str="Anreise";
 var url1=document.URL;
 if(url1.indexOf(str) != -1) {
-   var lpolink1="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=27101&amp;productId=176647";
-   var lpolink2="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=27101&amp;productId=176647";
-   var lpolink3="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=40601&amp;productId=176648"; 
-   var lpolink4="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=40601&amp;productId=176649"; 
+
    var routenlink="1";
-}	else {
-   var lpolink1="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=27101&amp;productId=176647";
-   var lpolink2="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=27101&amp;productId=176647";
-   var lpolink3="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=40601&amp;productId=176648"; 
-   var lpolink4="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&amp;storeId=10663&amp;catalogId=24051&amp;categoryId=40601&amp;productId=176649"; 
 }
 
 
+
+
 var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Tageskarte nur 25 &euro;!</h3>'+
+'<h3>Ticktes ab 24 &euro; pro Person!</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+

@@ -20,7 +20,6 @@ if(url1.indexOf(str) != -1) {
 
 
 
-
 var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
 '<h3>Ticktes ab 24 &euro; pro Person!</h3>'+
 '<ul>'+
