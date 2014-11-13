@@ -212,8 +212,11 @@ if(biglayer==1) {
 	
 $.getScript('http://resortinteraction.com/dyn/dyn.js', function(e) {
 		
-			if(rain==1) {
+	if(rain==1) {
 		$('#sidebar').css("margin-top", "120px");
+	var rumble="<div id=\"funbox\"></div><img src=\"http://lldgit.github.io/wetter.png\"  id=\"himage\" style=\"position:absolute; border:none; border-radius:5px; margin-top:150px; opacity:0; width:890px; \">";
+	$( "#funbox" ).replaceWith(rumble);
+
 	}	
     });
 	
