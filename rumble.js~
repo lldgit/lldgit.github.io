@@ -172,6 +172,8 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	$.removeCookie('lldbig2', { path: '/' });	
 	//$.cookie('lldbig2', parseInt(anzahl)+parseInt(1), { path: '/' });
 	
+	} else {
+		var biglayer=1;
 	}
 	
 function addEvent(obj, evt, fn) {
@@ -188,7 +190,7 @@ addEvent(window,"load",function(e) {
         var from = e.relatedTarget || e.toElement;
         if (!from || from.nodeName == "HTML") {
             if ( $( "#nllayer" ).is( ":hidden" ) ) {
-    $( "#nllayer" ).slideDown( "slow" );
+    //$( "#nllayer" ).slideDown( "slow" );
   } else {
    
   }
@@ -200,6 +202,30 @@ addEvent(window,"load",function(e) {
 
 
 }
+
+
+
+
+
+
+if(biglayer==1) {
+	$.getScript("http://resortinteraction.com/dyn/dyn.js");
+	if(rain==1) {
+		$('#sidebar').animate({ marginTop: '120px'}, 1000);
+	}		
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 function keinlayer() {
 	$.cookie('keinlayer', "1", { path: '/' });
