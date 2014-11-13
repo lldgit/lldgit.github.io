@@ -209,10 +209,14 @@ addEvent(window,"load",function(e) {
 
 
 if(biglayer==1) {
-	$.getScript("http://resortinteraction.com/dyn/dyn.js");
-	if(rain==1) {
+	
+$.getScript('http://resortinteraction.com/dyn/dyn.js', function(e) {
+		
+			if(rain==1) {
 		$('#sidebar').animate({ marginTop: '120px'}, 1000);
-	}		
+	}	
+    });
+	
 }
 
 
