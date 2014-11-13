@@ -213,7 +213,7 @@ if(biglayer==1) {
 $.getScript('http://resortinteraction.com/dyn/dyn.js', function(e) {
 		
 			if(rain==1) {
-		$('#sidebar').animate({ marginTop: '120px'}, 1000);
+		$('#sidebar').css("margin-top", "120px");
 	}	
     });
 	
