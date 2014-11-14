@@ -161,11 +161,11 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	if(anzahl < 4 && $.cookie('keinlayer')!="1") {
 	
 	
-	$('#sidebar').animate({ marginTop: '120px'}, 1000);
-	$('#maincontent').animate({ marginTop: '120px'}, 1000);
+	$('#sidebar').animate({ marginTop: '120px'}, 1000).delay(600);
+	$('#maincontent').animate({ marginTop: '120px'}, 1000).delay(600);
 	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketsverschenken\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/teaser_weihnachtsangebot_885x115px_112014.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
-	$( "#funbox" ).replaceWith(rumble);
-	$('#himage').animate({ opacity: 1}, 1500);
+	$( "#funbox" )replaceWith(rumble).delay(600);
+	$('#himage')animate({ opacity: 1}, 1500).delay(600);
 	$.removeCookie('lldbig2', { path: '/' });	
 	$.cookie('lldbig2', parseInt(anzahl)+parseInt(1), { path: '/' });
 	
