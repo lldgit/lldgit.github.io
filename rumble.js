@@ -146,9 +146,9 @@ for(index = 0; index < stopwort.length; index++) {
 
 var str ="Piraten-Bowling";
 var url1=document.URL;
-if (url1.indexOf(str) != -1 && stopp==0) {
+if (stopp==0) {
 
-
+alert(document.URL);
 var rumble="<ul class=\"langselect\"><\/ul><div id=\"nllayer\" style=\"position:absolute; display:none; background:blue; height:550px; z-index:100; display:hidden; margin-top:-40px; width:600px; margin-left:150px;\"><\/div>";
 $( ".langselect" ).replaceWith(rumble);
 
@@ -204,7 +204,7 @@ addEvent(window,"load",function(e) {
 }
 
 
-
+var biglayer=3;
 
 
 
