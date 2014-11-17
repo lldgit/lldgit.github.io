@@ -45,8 +45,8 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '<li class=\"secondchild\" style=\"width: 50%;\">Familie 5 Pers.</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <span style-size="8px">p.P.</span></span></li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_5personen_ab + ' € <span style-size="8px">p.P.</span></span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <span style=\"font-size:12px\">p.P.</span></span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_5personen_ab + ' € <span style=\"font-size:12px\">p.P.</span></span></li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\" style=\"margin-top: -10px;\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
