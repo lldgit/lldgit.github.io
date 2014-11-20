@@ -146,10 +146,10 @@ for(index = 0; index < stopwort.length; index++) {
 var url1=document.URL;
 if (stopp==0 && url1.length > 26 && lang=="de") {
 
-$("<ul class=\"langselect\"><\/ul><div id=\"nllayer\" style=\"position:absolute; display:none; background:blue; height:550px; z-index:100; display:hidden; margin-top:-40px; width:600px; margin-left:150px;\"><\/div>" ).insertAfter( ".langselect" ); 
+//var rumble="<ul class=\"langselect\"><\/ul><div id=\"nllayer\" style=\"position:absolute; display:none; background:blue; height:550px; z-index:100; display:hidden; margin-top:-40px; width:600px; margin-left:150px;\"><\/div>";
+//$( ".langselect" ).replaceWith(rumble);
 
 
-}
 
 	
 
