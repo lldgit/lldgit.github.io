@@ -656,7 +656,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 .lpoticketbadge h3, .lpoticketbadge h4 {
 	color:#c50c0f;
 	background:white;
+	font-size:50px;
 	line-height:20px;
+	display: inline-block;
 }
 .lpoticketbadge h3 {
 	font-size:30px;
