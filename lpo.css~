@@ -653,5 +653,9 @@ background: linear-gradient(to bottom,  rgba(218,41,28,1) 0%,rgba(201,29,26,1) 1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', endColorstr='#c91d1a',GradientType=0 ); /* IE6-8 */
 }
 
-
+.lpoticketbadge h3, .lpoticketbadge h4 {
+	color:white;
+	text-deocration:none;
+	line-height:20px;
+}
 
