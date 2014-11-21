@@ -663,8 +663,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 	padding-left:7px;
 	display: inline-block;
 }
+.lpoticketbadge h4 {
+	font-size:20px;
+		padding:0;
+	padding-right:7px;
+	padding-left:7px;
+}
 .lpoticketbadge h3 {
-	font-size:30px;
+	font-size:40px;
 		padding:0;
 	padding-right:7px;
 	padding-left:7px;
