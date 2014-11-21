@@ -665,13 +665,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 .lpoticketbadge h4 {
 	font-size:20px;
 		padding:0;
+		margin-top:3px;
 	padding-right:7px;
 	padding-left:7px;
 }
 .lpoticketbadge h3 {
 	font-size:40px;
 	margin-top:20px;
-	line-height:38px;
 		padding:0;
 	padding-right:7px;
 	padding-left:7px;
