@@ -39,6 +39,9 @@ background: url(http://lldgit.github.io/winter/Weihnachtskalender_880x650_V1.png
 .lpo_innerbg_wissen {
 background: url(http://lldgit.github.io/Info_Header_710x700.png) no-repeat #e4e4e4;
 }	
+.lpo_innerbg_wwl {
+background: url(http://lldgit.github.io/header_710x500_winterwonderland.jpg) no-repeat #e4e4e4;
+}	
 .lpo_innerbg_winter {
 background: url(http://lldgit.github.io/winter/header_winterflyer_880x700.jpg) no-repeat;
 }	
