@@ -692,6 +692,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
   font-weight: 100;
   line-height: 1;
   text-align: right;
+    background:white;
 }
 /* IE7 inline-block hack */
 *+html .styled div{
@@ -709,5 +710,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
   font-weight: normal;
   text-transform: uppercase;
   text-align: left;
-  background:white;
 }
