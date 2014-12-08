@@ -687,11 +687,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 }
 .styled div {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 200px;
+  margin-top: 100px
   font-size: 30px;
   font-weight: 100;
   line-height: 1;
-  text-align: right;
+  text-align:center;
     background:white;
 }
 /* IE7 inline-block hack */

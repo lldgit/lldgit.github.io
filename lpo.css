@@ -687,12 +687,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 }
 .styled div {
   display: inline-block;
-  margin-left: 200px;
-  margin-top: 100px
+  margin-left: 10px;
   font-size: 30px;
   font-weight: 100;
   line-height: 1;
-  text-align:center;
+  text-align: right;
     background:white;
 }
 /* IE7 inline-block hack */
@@ -702,6 +701,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 }
 .styled div:first-child {
   margin-left: 0;
+  margin-left:200px;
+  margin-top:100px;
 }
 .styled div span {
   display: block;
@@ -711,4 +712,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
   font-weight: normal;
   text-transform: uppercase;
   text-align: left;
+
 }
