@@ -129,9 +129,9 @@ var url1=document.URL;
 
 
 
-if ($(".c")[0] && lang=="de"){
+if ($(".box-green")[0] && lang=="de"){
 	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/startseite_886x115_winter.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a><\/div>";
-	$( ".c" ).replaceWith(rumble);
+	$( ".box-green" ).replaceWith(rumble);
 		 var endDate = "December 16, 2014 09:30:00";
 
  $('.countdown.styled').countdown({
