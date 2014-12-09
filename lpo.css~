@@ -703,8 +703,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 }
 .styled div:first-child {
   margin-left: 0;
-  margin-left:220px;
-  margin-top:125px;
+
 }
 .styled div span {
   display: block;
@@ -715,4 +714,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
   text-transform: uppercase;
   text-align: left;
 
+}
+.littlebox div:first-child {
+	  margin-left:220px;
+  margin-top:95px;
 }
