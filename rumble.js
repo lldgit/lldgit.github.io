@@ -163,10 +163,18 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	
 	$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
 	$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
-	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketsverschenken\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/teaser_weihnachtsangebot_885x115px_112014.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
+	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; margin-left:700px; margin-top:40px;\">&nbsp;</div>    <a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/teaser_weihnachtsangebot_885x115px_112014.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
 	$( "#funbox" ).delay(900).replaceWith(rumble);
 	$('#himage').delay(900).animate({ opacity: 1}, 1500);
 	$.removeCookie('lldbig2', { path: '/' });	
+	 var endDate = "December 16, 2014 09:30:00";
+
+ $('.countdown.styled').countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Tage</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Std.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min.</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Sek.</span></div>");
+          }
+        });
 	$.cookie('lldbig2', parseInt(anzahl)+parseInt(1), { path: '/' });
 	
 	} else {
