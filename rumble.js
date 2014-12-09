@@ -158,7 +158,7 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 } else {
 	var anzahl=$.cookie('lldbig2');
 }
-	if(anzahl < 4 && $.cookie('keinlayer')!="1") {
+	if($.cookie('keinlayer')!="1") {
 	
 	
 	$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
@@ -169,7 +169,7 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	$.removeCookie('lldbig2', { path: '/' });	
 	 var endDate = "December 16, 2014 09:30:00";
 
- $('.countdown.styled').countdown({
+ $('.countdown.styled').delay(500).countdown({
           date: endDate,
           render: function(data) {
             $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Tage</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Std.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min.</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Sek.</span></div>");
