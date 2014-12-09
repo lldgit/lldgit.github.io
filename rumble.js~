@@ -270,3 +270,8 @@ if(test==100) {
 $( ".c:first" ).replaceWith(rumble2);
 }
 
+
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px; opacity:0;\">&nbsp;</div>    <a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/startseite_886x115_winter.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a><\/div>";
+	$( ".alert" ).replaceWith(rumble);
+
+
