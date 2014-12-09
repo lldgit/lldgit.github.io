@@ -139,12 +139,21 @@ if ($(".box-green")[0]){
 	$( ".box-green" ).replaceWith(rumble);
 		 var endDate = "December 16, 2014 09:30:00";
 
- $('.countdown.styled').countdown({
+		if(lang=="de") {
+	 $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
             $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Tage</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Std.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min.</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Sek.</span></div>");
           }
         });
+	} else {
+	 $('.countdown.styled').countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          }
+        });
+	}
 
 }
 
@@ -194,13 +203,22 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	$('.countdown').delay(1100).animate({ opacity: 1}, 1500);
 	$.removeCookie('lldbig2', { path: '/' });	
 	 var endDate = "December 16, 2014 09:30:00";
-
- $('.countdown.styled').countdown({
+		if(lang=="de") {
+	 $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
             $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Tage</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Std.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min.</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Sek.</span></div>");
           }
         });
+	} else {
+	 $('.countdown.styled').countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          }
+        });
+	}
+
 	$.cookie('lldbig2', parseInt(anzahl)+parseInt(1), { path: '/' });
 	
 	} else {
