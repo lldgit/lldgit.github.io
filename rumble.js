@@ -158,7 +158,7 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 } else {
 	var anzahl=$.cookie('lldbig2');
 }
-	if(anzahl < 6 $.cookie('keinlayer')!="1") {
+	if(anzahl < 5 && $.cookie('keinlayer')!="1") {
 	
 	
 	$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
