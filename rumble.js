@@ -5,6 +5,25 @@
  * Copyright 2006, 2014 Klaus Hartl
  * Released under the MIT license
  */
+
+
+var endDate = "December 16, 2014 09:30:00";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 (function (factory) {
 	if (typeof define === 'function' && define.amd) {
 		// AMD
@@ -137,7 +156,7 @@ if ($(".box-green")[0]){
 	}
 	
 	$( ".box-green" ).replaceWith(rumble);
-		 var endDate = "December 16, 2014 09:30:00";
+		 
 
 		if(lang=="de") {
 	 $('.countdown.styled').countdown({
@@ -202,7 +221,7 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	$('#himage').delay(900).animate({ opacity: 1}, 1500);
 	$('.countdown').delay(1100).animate({ opacity: 1}, 1500);
 	$.removeCookie('lldbig2', { path: '/' });	
-	 var endDate = "December 16, 2014 09:30:00";
+	 
 		if(lang=="de") {
 	 $('.countdown.styled').countdown({
           date: endDate,
