@@ -179,7 +179,7 @@ if ($(".box-green")[0]){
 
 var index;
 var stopp = 0;
-var stopwort=["bus","firmen","presse","preise","tickets","advent"];
+var stopwort=["bus","firmen","presse","preise","tickets","advent","wien","cmt","free","ibo","bozen"];
 for(index = 0; index < stopwort.length; index++) {
     var wort = stopwort[index].toLowerCase();
     var url1=document.URL.toLowerCase();
