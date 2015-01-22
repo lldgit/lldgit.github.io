@@ -21,7 +21,9 @@ border-radius: 5px; border: none;
 background: url(http://lldgit.github.io/Events/header_events.jpg) no-repeat;
 }
 
-
+.lpo_innerbg_gruppen {
+background: url(http://lldgit.github.io/gruppen/header_gruppen.png) no-repeat;
+}
 
 .lpo_innerbg_gruen {
 background: url(http://lldgit.github.io/Header_gruen_710x420.png) no-repeat;
