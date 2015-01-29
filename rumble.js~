@@ -142,7 +142,14 @@ var url1=document.URL;
 
 
 if($.cookie('cookiestor')!= "nogo") {
-	     var rumble5="<div id=\"cookieding\" style=\"height:9px; background:#a7dff6; font-size:8px; width:100%; text-align:center;\">Um Ihnen bestmöglichen Service zu garantieren verwendet unsere Webseite Cookies. Klicken Sie <a href=\"\/Ueber-LEGOLAND\/Cookies\/\">hier</a> um mehr zu erfahren. <a href=\"\">x<\/a><\/div>";
+	if(lang=="de") {
+		var rumble5="<div id=\"cookieding\" style=\"height:9px; background:#a7dff6; font-size:8px; width:100%; text-align:center;\">Um Ihnen bestmöglichen Service zu garantieren verwendet unsere Webseite Cookies. Klicken Sie <a href=\"\/Ueber-LEGOLAND\/Cookies\/\">hier</a> um mehr zu erfahren. <a href=\"\">x<\/a><\/div>";
+	} else {
+	var rumble5="<div id=\"cookieding\" style=\"height:9px; background:#a7dff6; font-size:8px; width:100%; text-align:center;\">Our website uses cookies to help us provide you with a good experience and allow us to improve the website. Find out <a href=\"\/en\/About-LEGOLAND\/Cookies\/\">more.<\/a> <a href=\"\">x<\/a><\/div>";
+	}	
+	
+	
+	     
 $( "#background-center" ).replaceWith(rumble5);
 $.cookie('cookiestor', "nogo", { path: '/' });
 }
