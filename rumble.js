@@ -16,7 +16,7 @@ var endDate = "February 11, 2015 09:30:00";
 
 
 
-     var rumble5="<div id=\"cookieding\" style=\"height:8px; width:100%; text-align:center;\">Cookie<\/div>";
+     var rumble5="<div id=\"cookieding\" style=\"height:100px; background:red; width:100%; text-align:center;\">Cookie<\/div>";
 $( "#background-center" ).replaceWith(rumble5);
 
 
