@@ -27,7 +27,7 @@ if(url1.indexOf(str) != -1) {
 
 
 
-
+if(gruppenseite!="1") {
 
 
 var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
@@ -69,6 +69,10 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</li>'+
 '</ul>'+
 '</div>';
+}
+
+
+
 if(routenlink=="1" || gruppenseite=="1") {
 	var sidebarbox=sidebarbox +
 	'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; margin-top: 20px; padding: 3px; background:blue; font-size:13px;\">'+
