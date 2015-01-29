@@ -336,7 +336,7 @@ $( ".c:first" ).replaceWith(rumble2);
 
 
 
-     var rumble5="<div id=\"cookieding\" style=\"height:8px; width:100%; text-align:center;\">Cookie<\/div>";
-$( ".c:first" ).replaceWith(rumble5);
+     var rumble2="<a href=\"/Jetzt-Tickets-sichern/\" class=\"topstoerer\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Content\', \'FamilienticketsHalloween\']);\">Für kurze Zeit: Tageskarte nur 25 &euro; und gruselige Halloween-Wochen erleben &raquo;</a><div class=\"c\"></div>";
+$( ".c:first" ).replaceWith(rumble2);
 
 
