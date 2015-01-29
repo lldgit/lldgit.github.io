@@ -12,13 +12,6 @@ var endDate = "February 11, 2015 09:30:00";
 
 
 
-if($.cookie('cookiestor')!= "nogo") {
-
-}
-
-
-	     var rumble5="<div id=\"cookieding\" style=\"height:9px; background:#a7dff6; font-size:8px; width:100%; text-align:center;\">Um Ihnen bestmöglichen Service zu garantieren verwendet unsere Webseite Cookies. Klicken Sie <a href=\"\/Ueber-LEGOLAND\/Cookies\/\">hier</a> um mehr zu erfahren. <a href=\"\">x<\/a><\/div>";
-$( "#background-center" ).replaceWith(rumble5);
 
 
 
@@ -146,6 +139,13 @@ var url1=document.URL;
 	}	else {
 		var lang="de";	
 	}
+
+
+if($.cookie('cookiestor')!= "nogo") {
+	     var rumble5="<div id=\"cookieding\" style=\"height:9px; background:#a7dff6; font-size:8px; width:100%; text-align:center;\">Um Ihnen bestmöglichen Service zu garantieren verwendet unsere Webseite Cookies. Klicken Sie <a href=\"\/Ueber-LEGOLAND\/Cookies\/\">hier</a> um mehr zu erfahren. <a href=\"\">x<\/a><\/div>";
+$( "#background-center" ).replaceWith(rumble5);
+}
+
 
 
 
