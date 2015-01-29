@@ -12,7 +12,9 @@ var endDate = "February 11, 2015 09:30:00";
 
 
 
-
+if($.cookie('cookiestor')=! "nogo") {
+	
+}
 
 
 
