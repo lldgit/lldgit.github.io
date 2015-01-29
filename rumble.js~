@@ -7,7 +7,7 @@
  */
 
 
-var endDate = "January 27, 2015 09:30:00";
+var endDate = "February 11, 2015 09:30:00";
 
 
 
@@ -332,5 +332,11 @@ if(test==100) {
      var rumble2="<a href=\"/Jetzt-Tickets-sichern/\" class=\"topstoerer\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Content\', \'FamilienticketsHalloween\']);\">Für kurze Zeit: Tageskarte nur 25 &euro; und gruselige Halloween-Wochen erleben &raquo;</a><div class=\"c\"></div>";
 $( ".c:first" ).replaceWith(rumble2);
 }
+
+
+
+
+     var rumble5="<div id=\"background-center\" style=\"height:8px; width:100%; text-align:center;\"></div>";
+$( "#background-center" ).replaceWith(rumble5);
 
 

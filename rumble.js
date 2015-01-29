@@ -334,3 +334,9 @@ $( ".c:first" ).replaceWith(rumble2);
 }
 
 
+
+
+     var rumble5="<div id=\"cookeding\" style=\"height:8px; width:100%; text-align:center;\"><\/div><div id=\"background-center\"><\/div>";
+$( "#background-center" ).replaceWith(rumble5);
+
+
