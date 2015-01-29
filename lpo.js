@@ -18,7 +18,12 @@ if(url1.indexOf(str) != -1) {
    var routenlink="1";
 }
 
+var str="Gruppen";
+var url1=document.URL;
+if(url1.indexOf(str) != -1) {
 
+   var gruppenseite="1";
+}
 
 
 
