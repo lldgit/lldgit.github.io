@@ -90,6 +90,10 @@ if(routenlink=="1" || gruppenseite=="1") {
 '			</div>';
 }
 
+if(gruppenseite=="1") {
+		var sidebarbox=sidebarbox +
+		'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; margin-top: 20px; padding: 3px; font-size: 13px; background: url(\/\/lldgit.github.io\/winter\/img_anfahrt_231x231.jpg); height: 231px;\">&nbsp;<\/div>';
+}
 
 
 
