@@ -75,7 +75,7 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 
 
 
-if(routenlink=="1" or gruppenseite="1") {
+if(routenlink=="1" or gruppenseite=="1") {
 	var sidebarbox=sidebarbox +
 	'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; margin-top: 20px; padding: 3px; background:blue; font-size:13px;\">'+
 	'<h3 style=\"color:white; margin-top:5px; margin-bottom:5px;\">Route berechnen</h3>'+
