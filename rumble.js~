@@ -336,7 +336,7 @@ $( ".c:first" ).replaceWith(rumble2);
 
 
 
-     var rumble5="<div id=\"cookieding\" style=\"height:8px; width:100%; text-align:center;\">Cookie<\/div><div id=\"background-center\"><\/div>";
-$( "#background-center" ).replaceWith(rumble5);
+     var rumble5="<div id=\"cookieding\" style=\"height:8px; width:100%; text-align:center;\">Cookie<\/div>";
+$( "#background-center2" ).insertAfter(rumble5);
 
 
