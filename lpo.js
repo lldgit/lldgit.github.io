@@ -27,7 +27,95 @@ if(url1.indexOf(str) != -1) {
 
 
 
+if(gruppenseite!="1") {
 
+
+var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
+'<h3>Tickets ab 27 &euro; pro Person!</h3>'+
+'<ul>'+
+'<li class=\"lpo_bigs\"> '+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Erwachsene</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Kinder (3-11)</li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_erwachsener_ab + ' €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_kind_ab  + ' €</span></li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">Tickets jetzt sichern</a></div>'+
+'</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\">&nbsp;</div>'+
+'</li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Familie 4 Pers.</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Familie 5 Pers.</li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <small style=\"font-size:12px\">p.P.</small></span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_5personen_ab + ' € <small style=\"font-size:12px\">p.P.</small></span></li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\" style=\"margin-top: -10px;\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink3 + '\">jetzt sichern</a></div>'+
+'</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink4 + '\">jetzt sichern</a></div>'+
+'</li>'+
+'</ul>'+
+'</li>'+
+'</ul>'+
+'</div>';
+} else {
+ var sidebarbox="";
+}
+
+
+
+if(gruppenseite=="1") {
+var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
+'<h3>Tickets ab 17 € pro Person!</h3>'+
+'<ul>'+
+'<li class=\"lpo_bigs\"> '+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Erwachsene</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Kinder (3-11)</li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_erwachsener_ab + ' €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_kind_ab  + ' €</span></li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">Tickets jetzt sichern</a></div>'+
+'</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\">&nbsp;</div>'+
+'</li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Familie 4 Pers.</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Familie 5 Pers.</li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <small style=\"font-size:12px\">p.P.</small></span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_5personen_ab + ' € <small style=\"font-size:12px\">p.P.</small></span></li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\" style=\"margin-top: -10px;\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink3 + '\">jetzt sichern</a></div>'+
+'</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink4 + '\">jetzt sichern</a></div>'+
+'</li>'+
+'</ul>'+
+'</li>'+
+'</ul>'+
+'</div>';
+}
 
 
 
