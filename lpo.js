@@ -133,10 +133,10 @@ $( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
 
 for (var i = 0; i < 2; i++ ) {
         $("#sidebartorumble")
-        		.delay(300).animate( { marginLeft: '30px'}, 100 )
-        		.animate( { marginLeft: '20px'}, 100 )
-        		.animate( { marginLeft: '30px'}, 100 )
-        		.animate( { marginLeft: '20px'}, 500 )
+        		.delay(300).animate( { marginLeft: '35px'}, 100 )
+        		.animate( { marginLeft: '25px'}, 100 )
+        		.animate( { marginLeft: '35px'}, 100 )
+        		.animate( { marginLeft: '40px'}, 500 )
        		 .animate( { backgroundColor: "#fe0c0c"}, 500 )
             .animate( { backgroundColor: "#da291c" }, 800 );
             
