@@ -75,6 +75,33 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 
 
 
+if(gruppenseite=="1") {
+var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
+'<h3>Tickets ab 17 € pro Person!</h3>'+
+'<ul>'+
+'<li class=\"lpo_bigs\"> '+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Erwachsene</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Kinder (3-11)</li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_erwachsener_ab + ' €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_kind_ab  + ' €</span></li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">Tickets jetzt sichern</a></div>'+
+'</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\">&nbsp;</div>'+
+'</li>'+
+'</ul>'+
+'</div>';
+}
+
+
+
+
 if(routenlink=="1" || gruppenseite=="1") {
 	var sidebarbox=sidebarbox +
 	'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; margin-top: 20px; padding: 3px; background:blue; font-size:13px;\">'+
@@ -90,10 +117,7 @@ if(routenlink=="1" || gruppenseite=="1") {
 '			</div>';
 }
 
-if(gruppenseite=="1") {
-		var sidebarbox=sidebarbox +
-		'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; margin-top: 20px; padding: 3px; font-size: 13px; background: url(\/\/lldgit.github.io\/winter\/img_anfahrt_231x231.jpg); height: 231px;\">&nbsp;<\/div>';
-}
+
 
 
 
