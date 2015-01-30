@@ -139,7 +139,7 @@ var pageVariations = [
   function() {    // Variation 1: Banner Image
 for (var i = 0; i < 2; i++ ) {
         $("#sidebartorumble")
-        		.delay(300).animate( { marginLeft: '35px'}, 100 )
+        		.delay(3000).animate( { marginLeft: '35px'}, 100 )
         		.animate( { marginLeft: '45px'}, 100 )
         		.animate( { marginLeft: '35px'}, 100 )
         		.animate( { marginLeft: '40px'}, 500 )
