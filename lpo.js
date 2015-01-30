@@ -96,6 +96,8 @@ var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; m
 '<div style=\"margin-top: -14px;\">&nbsp;</div>'+
 '</li>'+
 '</ul>'+
+'</li>'+
+'</ul>'+
 '</div>';
 }
 

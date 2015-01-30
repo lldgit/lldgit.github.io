@@ -96,24 +96,6 @@ var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; m
 '<div style=\"margin-top: -14px;\">&nbsp;</div>'+
 '</li>'+
 '</ul>'+
-'<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Familie 4 Pers.</li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Familie 5 Pers.</li>'+
-'</ul>'+
-'<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <small style=\"font-size:12px\">p.P.</small></span></li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_5personen_ab + ' € <small style=\"font-size:12px\">p.P.</small></span></li>'+
-'</ul>'+
-'<ul class=\"lpo_bigs_second lpo_li\" style=\"margin-top: -10px;\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink3 + '\">jetzt sichern</a></div>'+
-'</li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink4 + '\">jetzt sichern</a></div>'+
-'</li>'+
-'</ul>'+
-'</li>'+
-'</ul>'+
 '</div>';
 }
 
