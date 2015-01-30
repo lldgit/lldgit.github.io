@@ -123,20 +123,11 @@ if(routenlink=="1" || gruppenseite=="1") {
 }
 
 
-
+$( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
 
 $.getScript("http://www.google-analytics.com/cx/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg", function(){
 
-   alert("Script loaded and executed.");
-
-   // Use anything defined in the loaded script...
-});
-
-
-
-$( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
-
-var chosenVariation = cxApi.chooseVariation();
+   var chosenVariation = cxApi.chooseVariation();
 
 
 var pageVariations = [
@@ -155,6 +146,13 @@ for (var i = 0; i < 2; i++ ) {
 
   }
 ];
+
+});
+
+
+
+
+
 
 
 
