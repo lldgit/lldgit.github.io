@@ -133,7 +133,6 @@ if(gruppenseite!="1") {
 $.getScript("http://www.google-analytics.com/cx/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg", function(){
 
    var chosenVariation = cxApi.chooseVariation();
-alert(chosenVariation);
 
 var pageVariations = [
   function() {},  // Original: Do nothing. This will render the default HTML.

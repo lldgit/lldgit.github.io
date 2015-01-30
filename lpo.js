@@ -150,12 +150,12 @@ for (var i = 0; i < 2; i++ ) {
 
   }
 ];
-
-});
 $(document).ready(
   // Execute the chosen view
   pageVariations[chosenVariation]
 );
+
+});
 
  }
 
