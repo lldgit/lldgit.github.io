@@ -70,16 +70,7 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</ul>'+
 '</div>';
 
-for (var i = 0; i < 3; i++ ) {
-        $("#sidebartorumble")
-        		.delay(300).animate( { marginTop: '300px'}, 100 )
-        		.animate( { marginTop: '315px'}, 100 )
-        		.animate( { marginTop: '300px'}, 100 )
-        		.animate( { marginTop: '315px'}, 500 )
-       		 .animate( { backgroundColor: "#fe0c0c"}, 500 )
-            .animate( { backgroundColor: "#da291c" }, 800 );
-            
-    }
+
 
 } else {
  var sidebarbox="";
@@ -136,3 +127,17 @@ if(routenlink=="1" || gruppenseite=="1") {
 
 
 $( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
+
+
+
+
+for (var i = 0; i < 3; i++ ) {
+        $("#sidebartorumble")
+        		.delay(300).animate( { marginTop: '300px'}, 100 )
+        		.animate( { marginTop: '315px'}, 100 )
+        		.animate( { marginTop: '300px'}, 100 )
+        		.animate( { marginTop: '315px'}, 500 )
+       		 .animate( { backgroundColor: "#fe0c0c"}, 500 )
+            .animate( { backgroundColor: "#da291c" }, 800 );
+            
+    }
