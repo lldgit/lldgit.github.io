@@ -70,7 +70,7 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</ul>'+
 '</div>';
 
-$("#full-wrapper #full").animate({
+$("#sidebartorumble").animate({
     marginLeft: '-=0px'
 }, 500);
 
