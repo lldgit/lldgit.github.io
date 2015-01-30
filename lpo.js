@@ -134,7 +134,7 @@ $( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
 for (var i = 0; i < 2; i++ ) {
         $("#sidebartorumble")
         		.delay(300).animate( { marginLeft: '35px'}, 100 )
-        		.animate( { marginLeft: '25px'}, 100 )
+        		.animate( { marginLeft: '45px'}, 100 )
         		.animate( { marginLeft: '35px'}, 100 )
         		.animate( { marginLeft: '40px'}, 500 )
        		 .animate( { backgroundColor: "#fe0c0c"}, 500 )
