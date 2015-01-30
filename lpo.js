@@ -30,7 +30,7 @@ if(url1.indexOf(str) != -1) {
 if(gruppenseite!="1") {
 
 
-var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
+var sidebarbox='<script src=\"\/\/www.google-analytics.com\/cx\/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg\"><\/script><div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
 '<h3>Tickets ab 27 &euro; pro Person!</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
@@ -128,9 +128,12 @@ if(routenlink=="1" || gruppenseite=="1") {
 
 $( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
 
+var chosenVariation = cxApi.chooseVariation();
 
 
-
+var pageVariations = [
+  function() {},  // Original: Do nothing. This will render the default HTML.
+  function() {    // Variation 1: Banner Image
 for (var i = 0; i < 2; i++ ) {
         $("#sidebartorumble")
         		.delay(300).animate( { marginLeft: '35px'}, 100 )
@@ -141,3 +144,9 @@ for (var i = 0; i < 2; i++ ) {
             .animate( { backgroundColor: "#da291c" }, 800 );
             
     }
+
+  }
+];
+
+
+
