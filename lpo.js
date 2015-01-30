@@ -123,14 +123,13 @@ if(routenlink=="1" || gruppenseite=="1") {
 }
 
 
-
-
-
 $( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
 
-var chosenVariation = cxApi.chooseVariation();
+$.getScript("http://www.google-analytics.com/cx/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg", function(){
 
-document.write(chosenVariation);
+   var chosenVariation = cxApi.chooseVariation();
+
+
 var pageVariations = [
   function() {},  // Original: Do nothing. This will render the default HTML.
   function() {    // Variation 1: Banner Image
@@ -147,6 +146,13 @@ for (var i = 0; i < 2; i++ ) {
 
   }
 ];
+
+});
+
+
+
+
+
 
 
 
