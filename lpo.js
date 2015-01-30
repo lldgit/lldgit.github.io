@@ -127,7 +127,7 @@ $( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
 
 
 if(gruppenseite!="1") {
-
+alert("gruppe");
 
 
 $.getScript("http://www.google-analytics.com/cx/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg", function(){

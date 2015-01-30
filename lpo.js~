@@ -125,6 +125,11 @@ if(routenlink=="1" || gruppenseite=="1") {
 
 $( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
 
+
+if(gruppenseite!="1") {
+
+
+
 $.getScript("http://www.google-analytics.com/cx/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg", function(){
 
    var chosenVariation = cxApi.chooseVariation();
@@ -148,8 +153,12 @@ for (var i = 0; i < 2; i++ ) {
 ];
 
 });
+$(document).ready(
+  // Execute the chosen view
+  pageVariations[chosenVariation]
+);
 
-
+ }
 
 
 
