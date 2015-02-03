@@ -185,7 +185,16 @@ if ($(".box-green")[0]){
             $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Tage</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Std.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min.</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Sek.</span></div>");
           }
         });
-	} else {
+	} else if(lang=="fr") {
+	 $('.countdown.styled').countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>jour</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>heur.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          }
+        });		
+	}
+	
+	else {
 	 $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
