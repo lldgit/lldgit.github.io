@@ -133,10 +133,13 @@ var endDate = "February 11, 2015 09:30:00";
 
 
 var wort = "/en/";
+var wort = "/fr/";
 var url1=document.URL;
 	if (url1.indexOf(wort) != -1 ) {
 		var lang="en";
-	}	else {
+	}	else if (url1.indexOf(wort2) != -1 ) {
+		var lang="fr";	
+	} else {
 		var lang="de";	
 	}
 
