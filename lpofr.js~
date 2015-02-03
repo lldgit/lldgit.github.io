@@ -21,12 +21,12 @@ if(url1.indexOf(str) != -1) {
 
 
 var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Tickets from 27 &euro; p.p.!</h3>'+
+'<h3>Les billets ne 27 &euro; p.p.!</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Adult</li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Children (3-11)</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Adultes</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Enfants (3-11)</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_erwachsener_ab + ' €</span></li>'+
@@ -34,7 +34,7 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">Book tickets now</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">Acheter des tickets</a></div>'+
 '</li>'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
 '<div style=\"margin-top: -14px;\">&nbsp;</div>'+
@@ -50,10 +50,10 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\" style=\"margin-top: -10px;\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink3 + '\">book now</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink3 + '\">Acheter</a></div>'+
 '</li>'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink4 + '\">book now</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink4 + '\">Acheter</a></div>'+
 '</li>'+
 '</ul>'+
 '</li>'+
