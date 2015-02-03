@@ -137,7 +137,7 @@ var wort2 = "/en/";
 var url1=document.URL;
 	if (url1.indexOf(wort) != -1 ) {
 		var lang="en";
-	} elseif (url1.indexOf(wort2) != -1 ) {
+	} else if (url1.indexOf(wort2) != -1 ) {
 var lang="fr";	
 	}	else {
 		var lang="de";	
