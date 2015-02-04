@@ -15,9 +15,22 @@ width: 871px;
 .lpo_innerbg {
 border-radius: 5px; border: none;	
 }
+
+
+.lpo_innerbg_event {
+background: url(http://lldgit.github.io/Events/header_events.jpg) no-repeat;
+}
+
+.lpo_innerbg_gruppen {
+background: url(http://lldgit.github.io/gruppen/header_gruppen.jpg) no-repeat;
+}
+
 .lpo_innerbg_gruen {
 background: url(http://lldgit.github.io/Header_gruen_710x420.png) no-repeat;
-}	
+}
+
+
+	
 .lpo_innerbg_rosa {
 background: url(http://lldgit.github.io/Header_rosa_710x420.png) no-repeat;
 }	
@@ -47,6 +60,9 @@ background: url(http://lldgit.github.io/winter/header_winterflyer_880x700.jpg) n
 }
 .lpo_innerbg_messeangebot {
 background: url(http://lldgit.github.io/header_landingpage_messe_880x700_neu.jpg) no-repeat;
+}	
+.lpo_innerbg_messeangebot_ohne {
+background: url(http://lldgit.github.io/header_landingpage_messe_880x700_neu-ohne.jpg) no-repeat;
 }	
 .lpo_innerbg_jk {
 background: url(http://lldgit.github.io/jk/JaKa_Header2_710x250.png) no-repeat;
