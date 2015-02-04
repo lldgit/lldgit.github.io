@@ -242,8 +242,11 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
 		if(lang=="de") {
 	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/startseite_886x115_winter.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
+<<<<<<< HEAD
 	} else if(lang=="fr") {	
 	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"\/fr\/Planifier-votre-visite\/Prix-et-Billets/"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown_fr\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_ticket_fr.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
+=======
+>>>>>>> parent of c790cca... f
 	} else {
 	
 	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"\/en\/Plan\/Prices-and-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown_en\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_winter_en.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
@@ -261,8 +264,11 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
             $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Tage</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Std.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min.</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Sek.</span></div>");
           }
         });
+<<<<<<< HEAD
    } else if(lang=="fr") {     
         
+=======
+>>>>>>> parent of c790cca... f
 	} else {
 	 $('.countdown.styled').countdown({
           date: endDate,
