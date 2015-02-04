@@ -170,15 +170,15 @@ if ($(".box-green")[0]){
    var chosenVariation = cxApi.chooseVariation();
 
 var pageVariations = [
-  function() { var version2="5";},  // Original: Do nothing. This will render the default HTML.
+  function() { var version2="5"; return 5;},  // Original: Do nothing. This will render the default HTML.
   function() {    var version2="1";
-
+		return 1;
   }
 ];
-$(document).ready(
+
   // Execute the chosen view
-  pageVariations[chosenVariation]
-);
+  var pagevar = pageVariations[chosenVariation];
+
 
 });
 	
