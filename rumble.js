@@ -362,9 +362,9 @@ if(test==100) {
 $( ".c:first" ).replaceWith(rumble2);
 }
 
+if(lang=="de") {
 
-
-var rumble15='<div id="ouibounce-modal">'+
+var rumble15='<div id="footer-top"></div><div id="ouibounce-modal">'+
    '   <div class="underlay"></div>'+
    '   <div class="modal">'+
    '     <div class="modal-title">'+
@@ -379,5 +379,22 @@ var rumble15='<div id="ouibounce-modal">'+
        ' </div>'+
       '</div>'+
     '</div>';
+$( "#footer-top" ).replaceWith(rumble15);
+var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
+        aggressive: true,
+        timer: 0,
+        callback: function() { console.log('ouibounce fired!'); }
+      });
 
+      $('body').on('click', function() {
+        $('#ouibounce-modal').hide();
+      });
 
+      $('#ouibounce-modal .modal-footer').on('click', function() {
+        $('#ouibounce-modal').hide();
+      });
+
+      $('#ouibounce-modal .modal').on('click', function(e) {
+        e.stopPropagation();
+      });
+}
