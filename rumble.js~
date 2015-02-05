@@ -379,7 +379,7 @@ var rumble15='<div id="footer-top"></div><div id="ouibounce-modal">'+
        ' </div>'+
       '</div>'+
     '</div>';
-$( "#footer-top" ).replaceWith(rumble15);
+//$( "#footer-top" ).replaceWith(rumble15);
 var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
         aggressive: true,
         timer: 0,
