@@ -361,3 +361,23 @@ if(test==100) {
      var rumble2="<a href=\"/Jetzt-Tickets-sichern/\" class=\"topstoerer\" onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'Content\', \'FamilienticketsHalloween\']);\">Für kurze Zeit: Tageskarte nur 25 &euro; und gruselige Halloween-Wochen erleben &raquo;</a><div class=\"c\"></div>";
 $( ".c:first" ).replaceWith(rumble2);
 }
+
+
+
+var rumble15='<div id="ouibounce-modal">'+
+   '   <div class="underlay"></div>'+
+   '   <div class="modal">'+
+   '     <div class="modal-title">'+
+    '      <h3>Achtung! Nie wieder so günstig im Vorverkauf!</h3>'+
+    '    </div>'+
+    '    <div class="modal-body">'+
+     '     <p>Den aktuellen Preis können wir dir nur nur noch eine sehr begrenzte Zeit anbieten. Danach werden die Preise garantiert steigen.</p>'+
+      '    <p><br><br><a href="/Besuch-planen/Preise-und-Tickets/">Jetzt gleich informieren &raquo;</a></p>'+
+      '    </div'+
+      '  <div class="modal-footer">'+
+      '    <p>nein, danke</p>'+
+       ' </div>'+
+      '</div>'+
+    '</div>';
+
+
