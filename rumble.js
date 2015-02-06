@@ -246,12 +246,12 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	
 	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"\/en\/Plan\/Prices-and-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown_en\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_winter_en.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
 	}
-	if(lang=="de" OR lang=="en" ) {
+	
 		$( "#funbox" ).delay(900).replaceWith(rumble);
 		$('#himage').delay(900).animate({ opacity: 1}, 1500);
 		$('.countdown').delay(1100).animate({ opacity: 1}, 1500);
 		$.removeCookie('lldbig2', { path: '/' });	
-	 }
+	 
 		if(lang=="de") {
 	 $('.countdown.styled').countdown({
           date: endDate,
