@@ -237,9 +237,16 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 }
 	if(anzahl < 5 && $.cookie('keinlayer')!="1") {
 	
-	
+	if(lang=="de") {
 	$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
 	$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
+	
+	}
+		if(lang=="en") {
+	$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
+	$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
+	
+	}
 		if(lang=="de") {
 	var rumble="<div id=\"funbox\"><a href=\"#\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/winter/startseite_886x115_winter.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
 	} else {
