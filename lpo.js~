@@ -85,7 +85,7 @@ var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; m
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Kinder- und Jugendgruppen</li>'+
-'<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Gemische Gruppen</li>'+
+'<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Gemischte Gruppen</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>17 €</span></li>'+
