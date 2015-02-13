@@ -17,6 +17,12 @@ border-radius: 5px; border: none;
 }
 
 
+
+
+.lpo_innerbg_wissenswelten {
+background: url(http://lldgit.github.io/Schulgruppen/header_education_schulseite_880x700.jpg) no-repeat;
+}
+
 .lpo_innerbg_event {
 background: url(http://lldgit.github.io/Events/header_events.jpg) no-repeat;
 }
