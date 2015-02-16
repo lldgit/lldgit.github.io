@@ -26,8 +26,16 @@ if(url1.indexOf(str) != -1) {
 }
 
 
+var str="Kindergartengruppen";
+var url1=document.URL;
+if(url1.indexOf(str) != -1) {
 
-if(gruppenseite!="1") {
+   var kgruppen="1";
+}
+
+
+
+if(gruppenseite!="1" && kgruppen!="1") {
 
 
 var sidebarbox='<script src=\"\/\/www.google-analytics.com\/cx\/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg\"><\/script><div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
@@ -106,8 +114,36 @@ var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; m
 
 
 
+if(kgruppen=="1") {
+var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
+'<h3>Tickets für Schul und Kindergartengruppen</h3>'+
+'<ul>'+
+'<li class=\"lpo_bigs\"> '+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Ab 10 Kindern</li>'+
+'<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Ab 45 Kindern</li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>8 €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>5 €</span></li>'+
+'</ul>'+
+'<ul class=\"lpo_bigs_second lpo_li\">'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:20px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"\/education">Jetzt reservieren</a></div>'+
+'</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">'+
+'<div style=\"margin-top: -14px;\">&nbsp;</div>'+
+'</li>'+
+'</ul>'+
+'</li>'+
+'</ul>'+
+'</div>';
+}
 
-if(routenlink=="1" || gruppenseite=="1") {
+
+
+
+if(routenlink=="1" || gruppenseite=="1" || kgruppen=="1") {
 	var sidebarbox=sidebarbox +
 	'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; margin-top: 20px; padding: 3px; background:blue; font-size:13px;\">'+
 	'<h3 style=\"color:white; margin-top:5px; margin-bottom:5px;\">Route berechnen</h3>'+
