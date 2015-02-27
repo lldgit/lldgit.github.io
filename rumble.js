@@ -7,7 +7,7 @@
  */
 
 
-var endDate = "March 3, 2015 09:30:00";
+var endDate = "March 3, 2015 14:00:00";
 
 
 
