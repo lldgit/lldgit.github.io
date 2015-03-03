@@ -1,7 +1,7 @@
 var preis_tageskarte_erwachsener_ab="35,27";
 var preis_tageskarte_kind_ab="31,45";
-var preis_familienkarte_4personen_ab="31";
-var preis_familienkarte_5personen_ab="28";
+var preis_familienkarte_4personen_ab="32";
+var preis_familienkarte_5personen_ab="29";
 
    var lpolink1="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&storeId=10663&catalogId=24051&categoryId=27101&productId=6211000033";
    var lpolink2="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?langId=-3&storeId=10663&catalogId=24051&categoryId=27101&productId=6211000033";
@@ -39,7 +39,7 @@ if(gruppenseite!="1" && kgruppen!="1") {
 
 
 var sidebarbox='<script src=\"\/\/www.google-analytics.com\/cx\/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg\"><\/script><div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Tickets ab 28 &euro; pro Person!</h3>'+
+'<h3>Tickets ab 29 &euro; pro Person!</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
