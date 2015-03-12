@@ -25,8 +25,8 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Adultes</li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Enfants (3-11)</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Adulti (da 12)</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Bambini (3-11)</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_erwachsener_ab + ' €</span></li>'+
@@ -34,15 +34,15 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">Acheter des tickets</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" style=\"position:absolute; margin-top:6px; margin-left:40px; height:14px; line-height:14px;\" id=\"lpolink1\" href=\"' + lpolink1 + ' \">sicuro biglietti</a></div>'+
 '</li>'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
 '<div style=\"margin-top: -14px;\">&nbsp;</div>'+
 '</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Famille 4 pers.</li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Famille 5 pers.</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Famiglia 4 pers.</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Famiglia 5 pers.</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <small style=\"font-size:12px\">p.p.</small></span></li>'+
@@ -50,10 +50,10 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\" style=\"margin-top: -10px;\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink3 + '\">Acheter</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink3\" href=\"' + lpolink3 + '\">sicuro</a></div>'+
 '</li>'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
-'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink4 + '\">Acheter</a></div>'+
+'<div style=\"margin-top: -14px;\"><a class=\"lpo_button lpo_white lpo_fr\" id=\"lpolink4\" href=\"' + lpolink4 + '\">sicuro</a></div>'+
 '</li>'+
 '</ul>'+
 '</li>'+
