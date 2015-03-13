@@ -44,6 +44,18 @@ background: url(http://lldgit.github.io/Schulgruppen/header_education_workshop_8
 background: url(http://lldgit.github.io/Schulgruppen/header_schul.jpg) no-repeat;
 }
 
+.lpo_innerbg_weitere_themen {
+background: url(http://lldgit.github.io/Schulgruppen/header_education_weitere_themen_710x500.jpg) no-repeat;
+}
+
+.lpo_innerbg_wissenswelten2 {
+background: url(http://lldgit.github.io/Schulgruppen/header_education_wisenswelten_710x500.jpg) no-repeat;
+}
+
+
+.lpo_innerbg_paedag_programm {
+background: url(http://lldgit.github.io/Schulgruppen/Padag_Programme.jpg) no-repeat;
+}
 
 
 .lpo_innerbg_gruppen {
