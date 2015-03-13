@@ -173,7 +173,7 @@ if ($(".box-green")[0]){
 	}else if(lang=="fr") {
 	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/fr\/Planifier-votre-visite\/Prix-et-Billets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_fr\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_ticket_fr.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	} else if(lang=="it") {
-	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/fr\/Planifier-votre-visite\/Prix-et-Billets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_fr\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_ticket_fr.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/it\/Piano-di-visita\/Prezzi-Biglietti\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_it\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_ticket_it.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	}
 	
 	 else {
