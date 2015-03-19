@@ -239,7 +239,7 @@ if (stopp==0 && url1.length > 26) {
 //$( ".langselect" ).replaceWith(rumble);
 
 
-
+/*
 	
 
 if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
@@ -259,8 +259,6 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
 	
 	}
-	
-	keinlayer
 	
 	
 		if(lang=="de") {
@@ -330,6 +328,9 @@ addEvent(window,"load",function(e) {
 
 
 }
+
+
+*/
 
 
 var biglayer=5;
