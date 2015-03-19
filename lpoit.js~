@@ -41,8 +41,8 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Famiglia 4 pers.</li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Famiglia 5 pers.</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Famiglia 4 p.</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Famiglia 5 p.</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <small style=\"font-size:12px\">p.p.</small></span></li>'+
