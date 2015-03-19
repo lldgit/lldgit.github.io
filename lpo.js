@@ -37,7 +37,7 @@ if(gruppenseite!="1" && kgruppen!="1") {
 
 
 var sidebarbox='<script src=\"\/\/www.google-analytics.com\/cx\/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg\"><\/script><div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Tickets ab 29 &euro; pro Person!</h3>'+
+'<h3>Spart bis zu 25%</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
