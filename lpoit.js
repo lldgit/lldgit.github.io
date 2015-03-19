@@ -29,8 +29,8 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '<li class=\"secondchild\" style=\"width: 50%;\">Bambini (3-11)</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_erwachsener_ab + ' €</span></li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_tageskarte_kind_ab  + ' €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small>de</small>' + preis_tageskarte_erwachsener_ab + ' €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small>de</small>' + preis_tageskarte_kind_ab  + ' €</span></li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+

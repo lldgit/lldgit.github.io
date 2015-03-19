@@ -19,7 +19,7 @@ if(url1.indexOf(str) != -1) {
 
 
 var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Tickets from 29 &euro; p.p.!</h3>'+
+'<h3>Save up to 25% </h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
