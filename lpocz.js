@@ -39,8 +39,8 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Rodinná vstupenka pro 4</li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\">Rodinná vstupenka pro 5</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Rodinná p. 4</li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\">Rodinná p. 5</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <small style=\"font-size:12px\">p.p.</small></span></li>'+
