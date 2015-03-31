@@ -1,13 +1,6 @@
-/*!
- * jQuery Cookie Plugin v1.4.1
- * https://github.com/carhartl/jquery-cookie
- *
- * Copyright 2006, 2014 Klaus Hartl
- * Released under the MIT license
- */
-/*
 
-var endDate = "March 19, 2015 14:00:00";
+
+var endDate = "April 7, 2015 10:00:00";
 
 
 
@@ -146,6 +139,13 @@ var url1=document.URL;
 		var lang="de";	
 	}
 
+//START OF SEASON INSERT
+if(lang=="de" || lang=="en") {
+
+
+
+
+
 
 if($.cookie('cookiestor')!= "nogo") {
 	if(lang=="de") {
@@ -169,7 +169,7 @@ $.cookie('cookiestor', "nogo", { path: '/' });
 
 if ($(".box-green")[0]){
 	if(lang=="de") {
-	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/startseite_886x115_winter.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_ostern_de_30032015.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	}else if(lang=="fr") {
 	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/fr\/Planifier-votre-visite\/Prix-et-Billets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_fr\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_ticket_fr.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	} else if(lang=="it") {
@@ -177,7 +177,7 @@ if ($(".box-green")[0]){
 	}
 	
 	 else {
-	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/en\/Plan\/Prices-and-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_en\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_winter_en.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/en\/Plan\/Prices-and-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_en\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_ostern_en_30032015.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	}
 	
 	$( ".box-green" ).replaceWith(rumble);
@@ -431,4 +431,29 @@ var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
         e.stopPropagation();
       });
 }
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//END OF SEASON INSERT
+}
