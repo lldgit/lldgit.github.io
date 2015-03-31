@@ -5,7 +5,7 @@
  * Copyright 2006, 2014 Klaus Hartl
  * Released under the MIT license
  */
-
+/*
 
 var endDate = "March 19, 2015 14:00:00";
 
@@ -239,7 +239,7 @@ if (stopp==0 && url1.length > 26) {
 //$( ".langselect" ).replaceWith(rumble);
 
 
-/*
+
 	
 
 if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
@@ -330,7 +330,7 @@ addEvent(window,"load",function(e) {
 }
 
 
-*/
+
 
 
 var biglayer=5;
@@ -431,3 +431,4 @@ var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
         e.stopPropagation();
       });
 }
+*/

@@ -239,7 +239,7 @@ if (stopp==0 && url1.length > 26) {
 //$( ".langselect" ).replaceWith(rumble);
 
 
-
+/*
 	
 
 if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
@@ -328,6 +328,9 @@ addEvent(window,"load",function(e) {
 
 
 }
+
+
+*/
 
 
 var biglayer=5;
