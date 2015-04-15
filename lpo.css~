@@ -1017,6 +1017,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 
 .FP1C {
 	height:40px!important;
+	position:absolute;
 }
 #ctl00_BlankHolder_FullArea_WidgetList2_Spacer {
 	height:0px!important;
