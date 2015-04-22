@@ -1,4 +1,4 @@
-$( document ).ready(function(){
+
 		if(window.location.href=="http://legoland.de" OR window.location.href=="http://legoland.de/" OR window.location.href=="http://www.legoland.de" OR window.location.href=="http://www.legoland.de/")	{
 		
 		
@@ -16,7 +16,6 @@ $( document ).ready(function(){
        window.location.href = "www.legoland.de/it/"
     }
     }
-});
 
 var endDate = "April 7, 2015 10:00:00";
 

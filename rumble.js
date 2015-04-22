@@ -1,21 +1,4 @@
 
-		if(window.location.href=="http://legoland.de" OR window.location.href=="http://legoland.de/" OR window.location.href=="http://www.legoland.de" OR window.location.href=="http://www.legoland.de/")	{
-		
-		
-    var userLang = navigator.language || navigator.userLanguage;
-    if (userLang == "en") {
-        window.location.href = "www.legoland.de/en/"
-    }
-    else if(userLang == "cs"){
-       window.location.href = "www.legoland.de/cs/"
-    }
-    else if(userLang == "fr"){
-       window.location.href = "www.legoland.de/fr/"
-    }
-    else if(userLang == "it"){
-       window.location.href = "www.legoland.de/it/"
-    }
-    }
 
 var endDate = "April 7, 2015 10:00:00";
 
