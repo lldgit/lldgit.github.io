@@ -264,13 +264,13 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	if(anzahl < 5 && $.cookie('keinlayer')!="1") {
 	
 	if(lang=="de") {
-	$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
-	$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
+	//$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
+	//$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
 	
 	}
 		if(lang=="en") {
-	$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
-	$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
+	//$('#sidebar').delay(900).animate({ marginTop: '120px'}, 1000);
+	//$('#maincontent').delay(900).animate({ marginTop: '120px'}, 1000);
 	
 	}
 	
