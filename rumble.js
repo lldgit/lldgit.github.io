@@ -14,7 +14,7 @@
        window.location.href = "www.legoland.de/it/";
     }
     }
-var endDate = "April 7, 2015 10:00:00";
+var endDate = "April 30, 2015 23:59:59";
 
 
 
@@ -154,7 +154,7 @@ var url1=document.URL;
 	}
 
 //START OF SEASON INSERT
-if(lang=="dee" || lang=="enn") {
+if(lang=="de" || lang=="en") {
 
 
 
@@ -183,7 +183,7 @@ $.cookie('cookiestor', "nogo", { path: '/' });
 
 if ($(".box-green")[0]){
 	if(lang=="de") {
-	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"https:\/\/secure.legoland.de\/webapp\/wcs\/stores\/servlet\/CategoryDisplay?langId=-3&storeId=10663&catalogId=24051&top=Y&categoryId=40601&isautoAddComment=\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_ostern_de_30032015.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"https:\/\/secure.legoland.de\/webapp\/wcs\/stores\/servlet\/CategoryDisplay?langId=-3&storeId=10663&catalogId=24051&top=Y&categoryId=40601&isautoAddComment=\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_fruehling_042015_de.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	}else if(lang=="fr") {
 	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/fr\/Planifier-votre-visite\/Prix-et-Billets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_fr\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_ticket_fr.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	} else if(lang=="it") {
@@ -191,7 +191,7 @@ if ($(".box-green")[0]){
 	}
 	
 	 else {
-	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"https:\/\/secure.legoland.de\/webapp\/wcs\/stores\/servlet\/CategoryDisplay?langId=-1&storeId=10663&catalogId=24051&top=Y&categoryId=40601&isautoAddComment=\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_en\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_ostern_en_30032015.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"https:\/\/secure.legoland.de\/webapp\/wcs\/stores\/servlet\/CategoryDisplay?langId=-1&storeId=10663&catalogId=24051&top=Y&categoryId=40601&isautoAddComment=\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_en\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_fruehling_042015_en.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	}
 	
 	$( ".box-green" ).replaceWith(rumble);
@@ -276,10 +276,10 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	
 	
 		if(lang=="de") {
-	var rumble="<div id=\"funbox\"><a href=\"#\" id=\"keinlayer\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"https:\/\/secure.legoland.de\/webapp\/wcs\/stores\/servlet\/CategoryDisplay?langId=-3&storeId=10663&catalogId=24051&top=Y&categoryId=40601&isautoAddComment=\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_ostern_de_30032015.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
+	//var rumble="<div id=\"funbox\"><a href=\"#\" id=\"keinlayer\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"https:\/\/secure.legoland.de\/webapp\/wcs\/stores\/servlet\/CategoryDisplay?langId=-3&storeId=10663&catalogId=24051&top=Y&categoryId=40601&isautoAddComment=\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_ostern_de_30032015.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
 	} else {
 	
-	var rumble="<div id=\"funbox\"><a href=\"#\" id=\"keinlayer\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"https:\/\/secure.legoland.de\/webapp\/wcs\/stores\/servlet\/CategoryDisplay?langId=-1&storeId=10663&catalogId=24051&top=Y&categoryId=40601&isautoAddComment=\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown_en\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_ostern_en_30032015.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
+	//var rumble="<div id=\"funbox\"><a href=\"#\" id=\"keinlayer\" onClick=\"javascript:keinlayer();\" style=\"position:absolute; margin-top:77px; text-decoration:none; border:none; border-radius:20px; padding:3px; padding-left:8px; padding-right:8px; margin-left:67px; z-index:100; font-weight:bold; font-size:17px; background:white;\" >x<\/a></div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:205px; opacity:0;\">&nbsp;</div>    <a href=\"https:\/\/secure.legoland.de\/webapp\/wcs\/stores\/servlet\/CategoryDisplay?langId=-1&storeId=10663&catalogId=24051&top=Y&categoryId=40601&isautoAddComment=\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdown_en\']);\"   id=\"himage\" style=\"position:absolute; margin-top:150px; opacity:0; width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_ostern_en_30032015.jpg\" style=\"border:none; border-radius:5px;  width:890px; \"><\/a>";
 	}
 	if(lang=="de") {
 		$( "#funbox" ).delay(900).replaceWith(rumble);
@@ -298,14 +298,14 @@ if($.cookie('lldbig2') === undefined || $.cookie('lldbig2') === null) {
 	 $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
-            $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Tage</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Std.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min.</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Sek.</span></div>");
+          //  $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Tage</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Std.</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min.</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Sek.</span></div>");
           }
         });
 	} else {
 	 $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
-            $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          //  $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
           }
         });
 	}
