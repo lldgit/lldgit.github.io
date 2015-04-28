@@ -1018,11 +1018,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da291c', end
 .FP1C {
 	height:40px!important;
 	position:absolute;
-	margin-top:-30px;
+	margin-top:-35px;
 }
 #ctl00_BlankHolder_FullArea_WidgetList2_Spacer {
 	height:0px!important;
 }
 .frontpage-box-container {
-	padding-top:30px;
+	padding-top:35px;
 }
