@@ -191,7 +191,7 @@ if ($(".box-green")[0]){
 	}
 	
 	 else {
-	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/Plan\/Prices-and-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_en\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_fruehling_042015_en.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/en\/Plan\/Prices-and-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_en\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_fruehling_042015_en.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	}
 	
 	$( ".box-green" ).replaceWith(rumble);
