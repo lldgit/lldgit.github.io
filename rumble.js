@@ -14,7 +14,7 @@
        window.location.href = "www.legoland.de/it/";
     }
     }
-var endDate = "April 30, 2015 23:59:59";
+var endDate = "May 4, 2015 09:00:00";
 
 
 
