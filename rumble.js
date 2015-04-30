@@ -154,7 +154,7 @@ var url1=document.URL;
 	}
 
 //START OF SEASON INSERT
-if(lang=="de" || lang=="en") {
+if(lang=="dee" || lang=="enn") {
 
 
 
