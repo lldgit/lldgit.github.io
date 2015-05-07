@@ -36,7 +36,7 @@ if(url1.indexOf(str) != -1) {
 if(gruppenseite!="1" && kgruppen!="1") {
 
 
-var sidebarbox='<script src=\"\/\/www.google-analytics.com\/cx\/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg\"><\/script><div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
+var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
 '<h3>Bis zu 25% sparen!</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
@@ -163,7 +163,7 @@ $( "#lposalesboxsidebar" ).replaceWith(sidebarbox);
 if(gruppenseite!="1") {
 
 
-
+/*
 $.getScript("http://www.google-analytics.com/cx/api.js?experiment=3vXxmN0jTpakBmvqHKIPeg", function(){
 
    var chosenVariation = cxApi.chooseVariation();
@@ -190,6 +190,7 @@ $(document).ready(
 );
 
 });
+*/
 
  }
 
