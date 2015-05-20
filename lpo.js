@@ -24,7 +24,7 @@ if(url1.indexOf(str) != -1) {
 }
 
 
-var str="Schule";
+var str="chule";
 var url1=document.URL;
 if(url1.indexOf(str) != -1) {
 
