@@ -24,7 +24,7 @@ if(url1.indexOf(str) != -1) {
 }
 
 
-var str="Kindergartengruppen";
+var str="Schule";
 var url1=document.URL;
 if(url1.indexOf(str) != -1) {
 
