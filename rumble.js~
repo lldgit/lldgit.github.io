@@ -14,7 +14,7 @@
        window.location.href = "www.legoland.de/it/";
     }
     }
-var endDate = "May 4, 2015 09:00:00";
+var endDate = "June 3, 2015 12:00:00";
 
 
 
@@ -183,7 +183,7 @@ $.cookie('cookiestor', "nogo", { path: '/' });
 
 if ($(".box-green")[0]){
 	if(lang=="de") {
-	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/de\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_fruehling_042015_de.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/de\/Besuch-planen\/Preise-und-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_familien-ticket_pfingsten_052015_de_paypal.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	}else if(lang=="fr") {
 	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/fr\/Planifier-votre-visite\/Prix-et-Billets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_fr\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/winter/scrolldown_883x115_ticket_fr.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	} else if(lang=="it") {
@@ -191,7 +191,7 @@ if ($(".box-green")[0]){
 	}
 	
 	 else {
-	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/en\/Plan\/Prices-and-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_en\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_ticketangebot_fruehling_042015_en.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
+	var rumble="<div><div class=\"countdown styled\" style=\"position:absolute; z-index:999; margin-left:570px; margin-top:50px;\">&nbsp;</div>    <a href=\"\/en\/Plan\/Prices-and-Tickets\/\"  onClick=\"_gaq.push([\'_trackEvent\', \'Stoerer\', \'ContentBig\', \'ticketcountdownstartseite_en\']);\"   id=\"himage\" style=\" width:890px; \"><img src=\"http://lldgit.github.io/scrolldown_883x115_familien-ticket_pfingsten_052015_en_paypal.jpg\" style=\"border:none; border-radius:5px; margin-bottom:10px; width:890px; \"><\/a><\/div>";
 	}
 	
 	$( ".box-green" ).replaceWith(rumble);
