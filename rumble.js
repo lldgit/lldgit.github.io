@@ -2,16 +2,16 @@
 		
     var userLang = navigator.language || navigator.userLanguage;
     if (userLang == "en") {
-        window.location.href = "www.legoland.de/en/";
+        window.location.href = "http://www.legoland.de/en/";
     }
     else if(userLang == "cs"){
-       window.location.href = "www.legoland.de/cs/";
+       window.location.href = "http://www.legoland.de/cs/";
     }
     else if(userLang == "fr"){
-       window.location.href = "www.legoland.de/fr/";
+       window.location.href = "http://www.legoland.de/fr/";
     }
     else if(userLang == "it"){
-       window.location.href = "www.legoland.de/it/";
+       window.location.href = "http://www.legoland.de/it/";
     }
     }
 var endDate = "June 3, 2015 12:00:00";
