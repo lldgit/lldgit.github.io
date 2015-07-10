@@ -16,7 +16,7 @@ if(url1.indexOf(str) != -1) {
    var routenlink="1";
 }
 
-var str="Gruppen";
+var str="ruppen";
 var url1=document.URL;
 if(url1.indexOf(str) != -1) {
 
