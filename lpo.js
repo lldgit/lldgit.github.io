@@ -95,7 +95,7 @@ var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; m
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>17 €</span></li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>21 €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>26 €</span></li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
