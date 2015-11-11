@@ -1,7 +1,7 @@
-var preis_tageskarte_erwachsener_ab="31,12";
-var preis_tageskarte_kind_ab="27,75";
-var preis_familienkarte_4personen_ab="27,15";
-var preis_familienkarte_5personen_ab="26,93";
+var preis_tageskarte_erwachsener_ab="33,60";
+var preis_tageskarte_kind_ab="29,60";
+var preis_familienkarte_4personen_ab="28";
+var preis_familienkarte_5personen_ab="25";
 
    var lpolink1="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?storeId=10663&langId=-1&catalogId=24051&categoryId=27101&productId=176647";
    var lpolink2="https://secure.legoland.de/webapp/wcs/stores/servlet/ProductDisplay?storeId=10663&langId=-1&catalogId=24051&categoryId=27101&productId=176647";
@@ -21,7 +21,7 @@ if(url1.indexOf(str) != -1) {
 
 
 var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Risparmiate fino al 25 %</h3>'+
+'<h3>Risparmiate fino al 35 %</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
@@ -45,8 +45,8 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 '<li class=\"secondchild\" style=\"width: 50%;\">Famiglia 5 p.</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <small style=\"font-size:12px\">p.p.</small></span></li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_5personen_ab + ' € <small style=\"font-size:12px\">p.p.</small></span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_4personen_ab + ' € <small style=\"font-size:12px\"></small></span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>' + preis_familienkarte_5personen_ab + ' € <small style=\"font-size:12px\"></small></span></li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\" style=\"margin-top: -10px;\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
