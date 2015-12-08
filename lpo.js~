@@ -86,16 +86,16 @@ var sidebarbox='<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; 
 
 if(gruppenseite=="1") {
 var sidebarbox=sidebarbox +'<div class=\"lpo_mid lpo_red\" style=\"width: 98%; margin: 0px; padding: 3px;\">'+
-'<h3>Tickets ab 17 € pro Person!</h3>'+
+'<h3>Tickets ab 18 € pro Person!</h3>'+
 '<ul>'+
 '<li class=\"lpo_bigs\"> '+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Kinder- und Jugendgruppen</li>'+
-'<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Gemischte Gruppen</li>'+
+'<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Kind (3-16 Jahre)</li>'+
+'<li class=\"secondchild\" style=\"width: 50%; line-height:13px;\">Erwachsener (ab 17 Jahre)</li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>17 €</span></li>'+
-'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>26 €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>18 €</span></li>'+
+'<li class=\"secondchild\" style=\"width: 50%;\"><span><small></small>22 €</span></li>'+
 '</ul>'+
 '<ul class=\"lpo_bigs_second lpo_li\">'+
 '<li class=\"secondchild\" style=\"width: 50%;\">'+
